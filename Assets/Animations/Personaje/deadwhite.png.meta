@@ -1,0 +1,1056 @@
+fileFormatVersion: 2
+guid: fe49e0646bcbd0142a33cd2358448813
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1201169135461658824
+    second: deadwhite_0
+  - first:
+      213: 9020080967934222669
+    second: deadwhite_1
+  - first:
+      213: -5604845684133858220
+    second: deadwhite_2
+  - first:
+      213: -699751682346701002
+    second: deadwhite_3
+  - first:
+      213: -2316705581333949391
+    second: deadwhite_4
+  - first:
+      213: 3456447030987161283
+    second: deadwhite_5
+  - first:
+      213: -438422992486221001
+    second: deadwhite_6
+  - first:
+      213: 4169572917315926314
+    second: deadwhite_7
+  - first:
+      213: -8781938211110178820
+    second: deadwhite_8
+  - first:
+      213: -7126251375225764951
+    second: deadwhite_9
+  - first:
+      213: -7158651920100295305
+    second: deadwhite_10
+  - first:
+      213: 2517333987633332995
+    second: deadwhite_11
+  - first:
+      213: -7856484356868114404
+    second: deadwhite_12
+  - first:
+      213: -489076102824197137
+    second: deadwhite_13
+  - first:
+      213: -5532601463215875515
+    second: deadwhite_14
+  - first:
+      213: -3562082182941661101
+    second: deadwhite_15
+  - first:
+      213: -7778482944211446139
+    second: deadwhite_16
+  - first:
+      213: 6414774696675766794
+    second: deadwhite_17
+  - first:
+      213: 2588926159096181081
+    second: deadwhite_18
+  - first:
+      213: 6772928910919786370
+    second: deadwhite_19
+  - first:
+      213: 9063124161325560126
+    second: deadwhite_20
+  - first:
+      213: -2474853838462989218
+    second: deadwhite_21
+  - first:
+      213: -1945825518682497817
+    second: deadwhite_22
+  - first:
+      213: -9050954360764675308
+    second: deadwhite_23
+  - first:
+      213: -4660629033657498316
+    second: deadwhite_24
+  - first:
+      213: 321453428575277917
+    second: deadwhite_25
+  - first:
+      213: 1165911456959411815
+    second: deadwhite_26
+  - first:
+      213: -3255222965498685966
+    second: deadwhite_27
+  - first:
+      213: 5609340124489187197
+    second: deadwhite_28
+  - first:
+      213: -62524170383977565
+    second: deadwhite_29
+  - first:
+      213: -6028569532589179049
+    second: deadwhite_30
+  - first:
+      213: -6712676602878601330
+    second: deadwhite_31
+  - first:
+      213: 6375571480355108828
+    second: deadwhite_32
+  - first:
+      213: 7503785593095461547
+    second: deadwhite_33
+  - first:
+      213: -2070045534656501512
+    second: deadwhite_34
+  - first:
+      213: 5439333436709045903
+    second: deadwhite_35
+  - first:
+      213: -4013143205118130760
+    second: deadwhite_36
+  - first:
+      213: -6300731467324990775
+    second: deadwhite_37
+  - first:
+      213: 7483111769105730801
+    second: deadwhite_38
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: deadwhite_0
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1840
+        width: 241
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83f05ad0907945fe0800000000000000
+      internalID: -1201169135461658824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadwhite_1
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 1839
+        width: 249
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d412bf299d3cd2d70800000000000000
+      internalID: 9020080967934222669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadwhite_2
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 1839
+        width: 257
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 454f158cb869732b0800000000000000
+      internalID: -5604845684133858220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadwhite_3
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 1838
+        width: 256
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63f2eb66d8bf946f0800000000000000
+      internalID: -699751682346701002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadwhite_4
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 1837
+        width: 272
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 134dc675c8869dfd0800000000000000
+      internalID: -2316705581333949391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadwhite_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1574
+        width: 340
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ce71faf244c7ff20800000000000000
+      internalID: 3456447030987161283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadwhite_6
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 1575
+        width: 302
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73bbe777c986ae9f0800000000000000
+      internalID: -438422992486221001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadwhite_7
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 1571
+        width: 311
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2974b91a7c4dd930800000000000000
+      internalID: 4169572917315926314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadwhite_8
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 1571
+        width: 320
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cff2957c9b9402680800000000000000
+      internalID: -8781938211110178820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadwhite_9
+      rect:
+        serializedVersion: 2
+        x: 1483
+        y: 1572
+        width: 327
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a3878771287a1d90800000000000000
+      internalID: -7126251375225764951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadwhite_10
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1313
+        width: 336
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77df0cfb10c57ac90800000000000000
+      internalID: -7158651920100295305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadwhite_11
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 1315
+        width: 343
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30307e1aced5fe220800000000000000
+      internalID: 2517333987633332995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadwhite_12
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 1316
+        width: 346
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1876755a1928f290800000000000000
+      internalID: -7856484356868114404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadwhite_13
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 1316
+        width: 348
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe3080f20e37639f0800000000000000
+      internalID: -489076102824197137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadwhite_14
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 1316
+        width: 348
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54a163d38404833b0800000000000000
+      internalID: -5532601463215875515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadwhite_15
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1054
+        width: 348
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 358a3099021f09ec0800000000000000
+      internalID: -3562082182941661101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadwhite_16
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 1054
+        width: 349
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58697d279f64d0490800000000000000
+      internalID: -7778482944211446139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadwhite_17
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 1054
+        width: 348
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a02f585899bd50950800000000000000
+      internalID: 6414774696675766794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadwhite_18
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 1054
+        width: 348
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 951f4aeff96bde320800000000000000
+      internalID: 2588926159096181081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadwhite_19
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 1054
+        width: 348
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28fd850c5f64efd50800000000000000
+      internalID: 6772928910919786370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadwhite_20
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 792
+        width: 348
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e31f11ff76fa6cd70800000000000000
+      internalID: 9063124161325560126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadwhite_21
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 792
+        width: 349
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5cc667db8d87add0800000000000000
+      internalID: -2474853838462989218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadwhite_22
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 792
+        width: 348
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ec1a0c000a0ff4e0800000000000000
+      internalID: -1945825518682497817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadwhite_23
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 792
+        width: 348
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41b495086fc846280800000000000000
+      internalID: -9050954360764675308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadwhite_24
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 792
+        width: 348
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43509f2469e125fb0800000000000000
+      internalID: -4660629033657498316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadwhite_25
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 530
+        width: 348
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d539f0ea038067400800000000000000
+      internalID: 321453428575277917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadwhite_26
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 530
+        width: 349
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 766bf97fa462e2010800000000000000
+      internalID: 1165911456959411815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadwhite_27
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 530
+        width: 348
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f5d1c4b5ff13d2d0800000000000000
+      internalID: -3255222965498685966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadwhite_28
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 530
+        width: 348
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7ff588af1168dd40800000000000000
+      internalID: 5609340124489187197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadwhite_29
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 530
+        width: 348
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a3136a299ed12ff0800000000000000
+      internalID: -62524170383977565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadwhite_30
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 268
+        width: 348
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75f774a63f7365ca0800000000000000
+      internalID: -6028569532589179049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadwhite_31
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 268
+        width: 349
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e875859e138c7d2a0800000000000000
+      internalID: -6712676602878601330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadwhite_32
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 268
+        width: 348
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd77dae6b749a7850800000000000000
+      internalID: 6375571480355108828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadwhite_33
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 268
+        width: 348
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa162b7d3dc22860800000000000000
+      internalID: 7503785593095461547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadwhite_34
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 268
+        width: 348
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f86ae5cd88b543e0800000000000000
+      internalID: -2070045534656501512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadwhite_35
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 350
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8682fd11f46c7b40800000000000000
+      internalID: 5439333436709045903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadwhite_36
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 5
+        width: 351
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b5492a74837e48c0800000000000000
+      internalID: -4013143205118130760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadwhite_37
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 5
+        width: 351
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cad7f8fc1e4f88a0800000000000000
+      internalID: -6300731467324990775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadwhite_38
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 5
+        width: 352
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fc871cb18a59d760800000000000000
+      internalID: 7483111769105730801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

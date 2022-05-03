@@ -1,0 +1,984 @@
+fileFormatVersion: 2
+guid: ac43a0395ad8a8b4ca5bbf6f024be2a4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7826889096351961296
+    second: attackwhite_0
+  - first:
+      213: 5583181747783521317
+    second: attackwhite_1
+  - first:
+      213: -2043472129995851802
+    second: attackwhite_2
+  - first:
+      213: -5535094913795288216
+    second: attackwhite_3
+  - first:
+      213: 185280944620824675
+    second: attackwhite_4
+  - first:
+      213: -1070162147716335339
+    second: attackwhite_5
+  - first:
+      213: 5634512717635483397
+    second: attackwhite_6
+  - first:
+      213: 5061787420324763926
+    second: attackwhite_7
+  - first:
+      213: -6645792622186195929
+    second: attackwhite_8
+  - first:
+      213: -4865302488621878501
+    second: attackwhite_9
+  - first:
+      213: 5202980411039035369
+    second: attackwhite_10
+  - first:
+      213: 6380480513223948491
+    second: attackwhite_11
+  - first:
+      213: 4116831968596232231
+    second: attackwhite_12
+  - first:
+      213: 8798238553751032435
+    second: attackwhite_13
+  - first:
+      213: 6732363783755452134
+    second: attackwhite_14
+  - first:
+      213: 4740864202020967311
+    second: attackwhite_15
+  - first:
+      213: 2325786364341881668
+    second: attackwhite_16
+  - first:
+      213: -333253388670331286
+    second: attackwhite_17
+  - first:
+      213: -6152507535941483550
+    second: attackwhite_18
+  - first:
+      213: -508307667948276249
+    second: attackwhite_19
+  - first:
+      213: -1643046556195842486
+    second: attackwhite_20
+  - first:
+      213: -3178262082239243394
+    second: attackwhite_21
+  - first:
+      213: -5577190839060885969
+    second: attackwhite_22
+  - first:
+      213: 7491012537770678569
+    second: attackwhite_23
+  - first:
+      213: 4140508041822058789
+    second: attackwhite_24
+  - first:
+      213: -5999097944601360087
+    second: attackwhite_25
+  - first:
+      213: -2425002575045440012
+    second: attackwhite_26
+  - first:
+      213: -873953583504240081
+    second: attackwhite_27
+  - first:
+      213: 2936139658142949544
+    second: attackwhite_28
+  - first:
+      213: 5344404797039268712
+    second: attackwhite_29
+  - first:
+      213: 2677784460311085024
+    second: attackwhite_30
+  - first:
+      213: 6899078347568864712
+    second: attackwhite_31
+  - first:
+      213: 38684182293990941
+    second: attackwhite_32
+  - first:
+      213: 8949072522910791586
+    second: attackwhite_33
+  - first:
+      213: 5248039785862796369
+    second: attackwhite_34
+  - first:
+      213: -965009920533739620
+    second: attackwhite_35
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: attackwhite_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1953
+        width: 410
+        height: 279
+      alignment: 9
+      pivot: {x: 0.6, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d0df6c1a22be9c60800000000000000
+      internalID: 7826889096351961296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attackwhite_1
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 1953
+        width: 410
+        height: 279
+      alignment: 9
+      pivot: {x: 0.6, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 524d419f7327b7d40800000000000000
+      internalID: 5583181747783521317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attackwhite_2
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 1953
+        width: 410
+        height: 279
+      alignment: 9
+      pivot: {x: 0.6, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e7bf2face024a3e0800000000000000
+      internalID: -2043472129995851802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attackwhite_3
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 1953
+        width: 410
+        height: 279
+      alignment: 9
+      pivot: {x: 0.6, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 863192980846f23b0800000000000000
+      internalID: -5535094913795288216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attackwhite_4
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 1953
+        width: 410
+        height: 279
+      alignment: 9
+      pivot: {x: 0.6, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 368e5c79900429200800000000000000
+      internalID: 185280944620824675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attackwhite_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1674
+        width: 410
+        height: 279
+      alignment: 9
+      pivot: {x: 0.5798796, y: 0.29999983}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5197c4552350621f0800000000000000
+      internalID: -1070162147716335339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attackwhite_6
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 1674
+        width: 410
+        height: 279
+      alignment: 9
+      pivot: {x: 0.5817694, y: 0.3148841}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5077519b67fc13e40800000000000000
+      internalID: 5634512717635483397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attackwhite_7
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 1674
+        width: 410
+        height: 279
+      alignment: 9
+      pivot: {x: 0.57366675, y: 0.30893064}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6199ffc17d41f3640800000000000000
+      internalID: 5061787420324763926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attackwhite_8
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 1674
+        width: 410
+        height: 279
+      alignment: 9
+      pivot: {x: 0.57164097, y: 0.3148841}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7241eaf22d665c3a0800000000000000
+      internalID: -6645792622186195929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attackwhite_9
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 1674
+        width: 410
+        height: 279
+      alignment: 9
+      pivot: {x: 0.5696155, y: 0.30893064}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b137ed00a29fa7cb0800000000000000
+      internalID: -4865302488621878501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attackwhite_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1395
+        width: 410
+        height: 279
+      alignment: 9
+      pivot: {x: 0.56981933, y: 0.29999983}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ef2c450e13b43840800000000000000
+      internalID: 5202980411039035369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attackwhite_11
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 1395
+        width: 410
+        height: 279
+      alignment: 9
+      pivot: {x: 0.56981933, y: 0.30492815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc8f307b8350c8850800000000000000
+      internalID: 6380480513223948491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attackwhite_12
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 1395
+        width: 410
+        height: 279
+      alignment: 9
+      pivot: {x: 0.57652617, y: 0.29999983}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72886201ddce12930800000000000000
+      internalID: 4116831968596232231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attackwhite_13
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 1395
+        width: 410
+        height: 279
+      alignment: 9
+      pivot: {x: 0.56311274, y: 0.30985603}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3721a7d795f991a70800000000000000
+      internalID: 8798238553751032435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attackwhite_14
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 1395
+        width: 410
+        height: 279
+      alignment: 9
+      pivot: {x: 0.56311274, y: 0.30985603}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eec27511392e6d50800000000000000
+      internalID: 6732363783755452134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attackwhite_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1116
+        width: 410
+        height: 279
+      alignment: 9
+      pivot: {x: 0.54006636, y: 0.31467977}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8353d1afdeeac140800000000000000
+      internalID: 4740864202020967311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attackwhite_16
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 1116
+        width: 410
+        height: 279
+      alignment: 9
+      pivot: {x: 0.5400668, y: 0.30734023}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44b8b06306ad64020800000000000000
+      internalID: 2325786364341881668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attackwhite_17
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 1116
+        width: 410
+        height: 279
+      alignment: 9
+      pivot: {x: 0.52508336, y: 0.3000007}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a661c140fcb006bf0800000000000000
+      internalID: -333253388670331286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attackwhite_18
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 1116
+        width: 410
+        height: 279
+      alignment: 9
+      pivot: {x: 0.5400671, y: 0.3000007}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e34b425ef6ed9aa0800000000000000
+      internalID: -6152507535941483550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attackwhite_19
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 1116
+        width: 410
+        height: 279
+      alignment: 9
+      pivot: {x: 0.54506123, y: 0.30734023}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e5f55f7ed022f8f0800000000000000
+      internalID: -508307667948276249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attackwhite_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 837
+        width: 410
+        height: 279
+      alignment: 9
+      pivot: {x: 0.5350719, y: 0.28532162}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a469484ccd9b239e0800000000000000
+      internalID: -1643046556195842486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attackwhite_21
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 837
+        width: 410
+        height: 279
+      alignment: 9
+      pivot: {x: 0.53507227, y: 0.31467977}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7b5901b97b84e3d0800000000000000
+      internalID: -3178262082239243394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attackwhite_22
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 837
+        width: 410
+        height: 279
+      alignment: 9
+      pivot: {x: 0.51509446, y: 0.30734023}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2e86392b76d992b0800000000000000
+      internalID: -5577190839060885969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attackwhite_23
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 837
+        width: 410
+        height: 279
+      alignment: 9
+      pivot: {x: 0.5051058, y: 0.27798188}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92991d9c63c65f760800000000000000
+      internalID: 7491012537770678569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attackwhite_24
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 837
+        width: 410
+        height: 279
+      alignment: 9
+      pivot: {x: 0.49012214, y: 0.29266116}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 529b37e602a067930800000000000000
+      internalID: 4140508041822058789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attackwhite_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 558
+        width: 410
+        height: 279
+      alignment: 9
+      pivot: {x: 0.4751382, y: 0.29266116}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9298247343ceebca0800000000000000
+      internalID: -5999097944601360087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attackwhite_26
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 558
+        width: 410
+        height: 279
+      alignment: 9
+      pivot: {x: 0.4751386, y: 0.27798212}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fd42079109a85ed0800000000000000
+      internalID: -2425002575045440012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attackwhite_27
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 558
+        width: 410
+        height: 279
+      alignment: 9
+      pivot: {x: 0.48013306, y: 0.29266116}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f22dc01a8d71fd3f0800000000000000
+      internalID: -873953583504240081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attackwhite_28
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 558
+        width: 410
+        height: 279
+      alignment: 9
+      pivot: {x: 0.4801335, y: 0.27064258}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a02c8676734fb820800000000000000
+      internalID: 2936139658142949544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attackwhite_29
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 560
+        width: 410
+        height: 279
+      alignment: 9
+      pivot: {x: 0.48512766, y: 0.28532162}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8635b67d8d32b2a40800000000000000
+      internalID: 5344404797039268712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attackwhite_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 279
+        width: 410
+        height: 279
+      alignment: 9
+      pivot: {x: 0.47014374, y: 0.2633026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ef37e577c6692520800000000000000
+      internalID: 2677784460311085024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attackwhite_31
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 279
+        width: 410
+        height: 279
+      alignment: 9
+      pivot: {x: 0.47014412, y: 0.27064213}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cd5e6844337ebf50800000000000000
+      internalID: 6899078347568864712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attackwhite_32
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 279
+        width: 410
+        height: 279
+      alignment: 9
+      pivot: {x: 0.46514967, y: 0.2633026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1e4f001f0f698000800000000000000
+      internalID: 38684182293990941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attackwhite_33
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 279
+        width: 410
+        height: 279
+      alignment: 9
+      pivot: {x: 0.4551609, y: 0.25596297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a77e4d9b0e713c70800000000000000
+      internalID: 8949072522910791586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attackwhite_34
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 279
+        width: 410
+        height: 279
+      alignment: 9
+      pivot: {x: 0.47513875, y: 0.2853212}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15418734168c4d840800000000000000
+      internalID: 5248039785862796369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attackwhite_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 410
+        height: 279
+      alignment: 9
+      pivot: {x: 0.44517133, y: 0.27798173}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c97cbd117989b92f0800000000000000
+      internalID: -965009920533739620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
