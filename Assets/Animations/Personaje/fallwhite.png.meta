@@ -1,0 +1,1584 @@
+fileFormatVersion: 2
+guid: fcc578f4f793bda4ab557f0ba5791164
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8241039951394915554
+    second: fallwhite_0
+  - first:
+      213: -8556192958336354561
+    second: fallwhite_1
+  - first:
+      213: -4742984386820579127
+    second: fallwhite_2
+  - first:
+      213: -8239252473654474963
+    second: fallwhite_3
+  - first:
+      213: -3708310472874887756
+    second: fallwhite_4
+  - first:
+      213: 4224534475097901736
+    second: fallwhite_5
+  - first:
+      213: -6217063783046805990
+    second: fallwhite_6
+  - first:
+      213: -5180696305726891080
+    second: fallwhite_7
+  - first:
+      213: -3366636094859397174
+    second: fallwhite_8
+  - first:
+      213: -5594956228194547213
+    second: fallwhite_9
+  - first:
+      213: 5654988279069011219
+    second: fallwhite_10
+  - first:
+      213: 8577963351124553813
+    second: fallwhite_11
+  - first:
+      213: -7818576004525463338
+    second: fallwhite_12
+  - first:
+      213: 288934986224357762
+    second: fallwhite_13
+  - first:
+      213: 6600831895562044516
+    second: fallwhite_14
+  - first:
+      213: 1850419500419558572
+    second: fallwhite_15
+  - first:
+      213: 2032355218426279472
+    second: fallwhite_16
+  - first:
+      213: -8570187091117572955
+    second: fallwhite_17
+  - first:
+      213: 4091873815065053318
+    second: fallwhite_18
+  - first:
+      213: -2898209140223406560
+    second: fallwhite_19
+  - first:
+      213: 6875311363056535656
+    second: fallwhite_20
+  - first:
+      213: -2371163375984174389
+    second: fallwhite_21
+  - first:
+      213: 4792411763320898431
+    second: fallwhite_22
+  - first:
+      213: 8708692522619576746
+    second: fallwhite_23
+  - first:
+      213: -3927675944055139096
+    second: fallwhite_24
+  - first:
+      213: 338352345595829354
+    second: fallwhite_25
+  - first:
+      213: 8731172878872225111
+    second: fallwhite_26
+  - first:
+      213: 8212428062265248569
+    second: fallwhite_27
+  - first:
+      213: 683567789743102132
+    second: fallwhite_28
+  - first:
+      213: 346878772318144028
+    second: fallwhite_29
+  - first:
+      213: 3707400893978606963
+    second: fallwhite_30
+  - first:
+      213: -4181004388863800021
+    second: fallwhite_31
+  - first:
+      213: -7034135223445766727
+    second: fallwhite_32
+  - first:
+      213: -4338333391372014620
+    second: fallwhite_33
+  - first:
+      213: 4098168939230840439
+    second: fallwhite_34
+  - first:
+      213: -4971509611272501369
+    second: fallwhite_35
+  - first:
+      213: 6620900878911971390
+    second: fallwhite_36
+  - first:
+      213: 7696987386148237024
+    second: fallwhite_37
+  - first:
+      213: -2389846507746957188
+    second: fallwhite_38
+  - first:
+      213: -6612549088235878393
+    second: fallwhite_39
+  - first:
+      213: -3099958069719576360
+    second: fallwhite_40
+  - first:
+      213: -5054461139903172028
+    second: fallwhite_41
+  - first:
+      213: -8665121296256239665
+    second: fallwhite_42
+  - first:
+      213: -2806102354358053616
+    second: fallwhite_43
+  - first:
+      213: 2104909783245559941
+    second: fallwhite_44
+  - first:
+      213: -6443582987742787015
+    second: fallwhite_45
+  - first:
+      213: -5345968634971893675
+    second: fallwhite_46
+  - first:
+      213: -6576891654428981584
+    second: fallwhite_47
+  - first:
+      213: 4221817926962091769
+    second: fallwhite_48
+  - first:
+      213: -1442784586174707110
+    second: fallwhite_49
+  - first:
+      213: -2005757687276937102
+    second: fallwhite_50
+  - first:
+      213: -3145630165000544524
+    second: fallwhite_51
+  - first:
+      213: 5296114687894065255
+    second: fallwhite_52
+  - first:
+      213: -3411417295531477614
+    second: fallwhite_53
+  - first:
+      213: 2995522809417972260
+    second: fallwhite_54
+  - first:
+      213: 7886046635090493181
+    second: fallwhite_55
+  - first:
+      213: 3368302041841281284
+    second: fallwhite_56
+  - first:
+      213: -4861149478479192657
+    second: fallwhite_57
+  - first:
+      213: -4754354822806179273
+    second: fallwhite_58
+  - first:
+      213: 5173104220455858169
+    second: fallwhite_59
+  - first:
+      213: -5659255628801442553
+    second: fallwhite_60
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fallwhite_0
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 1973
+        width: 105
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e442b24c2e0e5270800000000000000
+      internalID: 8241039951394915554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fallwhite_1
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 1964
+        width: 108
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff6b9a846db424980800000000000000
+      internalID: -8556192958336354561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fallwhite_2
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1953
+        width: 110
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c0e55064d88d2eb0800000000000000
+      internalID: -4742984386820579127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fallwhite_3
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 1945
+        width: 113
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d270115578b48ad80800000000000000
+      internalID: -8239252473654474963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fallwhite_4
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 1935
+        width: 114
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b57e6bb54f698cc0800000000000000
+      internalID: -3708310472874887756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fallwhite_5
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 1926
+        width: 111
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aa0a99f8bf80aa30800000000000000
+      internalID: 4224534475097901736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fallwhite_6
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 1917
+        width: 108
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a168c81cd6d88b9a0800000000000000
+      internalID: -6217063783046805990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fallwhite_7
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 1907
+        width: 108
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bb58ff88287a18b0800000000000000
+      internalID: -5180696305726891080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fallwhite_8
+      rect:
+        serializedVersion: 2
+        x: 1433
+        y: 1898
+        width: 102
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac7b5e51f4e4741d0800000000000000
+      internalID: -3366636094859397174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fallwhite_9
+      rect:
+        serializedVersion: 2
+        x: 1601
+        y: 1889
+        width: 101
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f9ca9c24f8ba52b0800000000000000
+      internalID: -5594956228194547213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fallwhite_10
+      rect:
+        serializedVersion: 2
+        x: 1766
+        y: 1879
+        width: 102
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31de7eed0ed8a7e40800000000000000
+      internalID: 5654988279069011219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fallwhite_11
+      rect:
+        serializedVersion: 2
+        x: 1924
+        y: 1869
+        width: 110
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5503918483c0b0770800000000000000
+      internalID: 8577963351124553813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fallwhite_12
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1500
+        width: 108
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d8edd86c86de7390800000000000000
+      internalID: -7818576004525463338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fallwhite_13
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1491
+        width: 102
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 281d511d6d0820400800000000000000
+      internalID: 288934986224357762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fallwhite_14
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 1481
+        width: 96
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4644b05e2adda9b50800000000000000
+      internalID: 6600831895562044516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fallwhite_15
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 1471
+        width: 92
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caca6ff4bb20ea910800000000000000
+      internalID: 1850419500419558572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fallwhite_16
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 1462
+        width: 89
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 036b5b3ad40643c10800000000000000
+      internalID: 2032355218426279472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fallwhite_17
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 1453
+        width: 88
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac7c475f34901980800000000000000
+      internalID: -8570187091117572955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fallwhite_18
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 1444
+        width: 94
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 688ccac1e8149c830800000000000000
+      internalID: 4091873815065053318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fallwhite_19
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 1436
+        width: 96
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02e8130742e77c7d0800000000000000
+      internalID: -2898209140223406560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fallwhite_20
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 1433
+        width: 101
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 868013bf1430a6f50800000000000000
+      internalID: 6875311363056535656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fallwhite_21
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 1433
+        width: 101
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bca1c06f87fe71fd0800000000000000
+      internalID: -2371163375984174389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fallwhite_22
+      rect:
+        serializedVersion: 2
+        x: 1718
+        y: 1433
+        width: 101
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7345228b11128240800000000000000
+      internalID: 4792411763320898431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fallwhite_23
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 1432
+        width: 102
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa127dc65bd7bd870800000000000000
+      internalID: 8708692522619576746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fallwhite_24
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1073
+        width: 102
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e41fb1e9871e79c0800000000000000
+      internalID: -3927675944055139096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fallwhite_25
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 1073
+        width: 104
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6cd8286aa112b400800000000000000
+      internalID: 338352345595829354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fallwhite_26
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 1072
+        width: 105
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75524bd397b5b2970800000000000000
+      internalID: 8731172878872225111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fallwhite_27
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 1072
+        width: 104
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93b05c2bfc768f170800000000000000
+      internalID: 8212428062265248569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fallwhite_28
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 1072
+        width: 104
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b8598778458c7900800000000000000
+      internalID: 683567789743102132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fallwhite_29
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 1072
+        width: 105
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c168524d76c50d400800000000000000
+      internalID: 346878772318144028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fallwhite_30
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 1072
+        width: 105
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37d7f8d6875537330800000000000000
+      internalID: 3707400893978606963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fallwhite_31
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 1072
+        width: 106
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2d8c6509a61af5c0800000000000000
+      internalID: -4181004388863800021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fallwhite_32
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 1072
+        width: 104
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bdb370684bb16e90800000000000000
+      internalID: -7034135223445766727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fallwhite_33
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 1072
+        width: 104
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eb2e0a14c42bc3c0800000000000000
+      internalID: -4338333391372014620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fallwhite_34
+      rect:
+        serializedVersion: 2
+        x: 1713
+        y: 1072
+        width: 105
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 776c46cefee9fd830800000000000000
+      internalID: 4098168939230840439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fallwhite_35
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 1073
+        width: 104
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78789a64956a10bb0800000000000000
+      internalID: -4971509611272501369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fallwhite_36
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 716
+        width: 102
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e30ae94354a22eb50800000000000000
+      internalID: 6620900878911971390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fallwhite_37
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 716
+        width: 101
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ee27005f3131da60800000000000000
+      internalID: 7696987386148237024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fallwhite_38
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 717
+        width: 101
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c78e80e534f85ded0800000000000000
+      internalID: -2389846507746957188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fallwhite_39
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 717
+        width: 101
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7080ed793a18b34a0800000000000000
+      internalID: -6612549088235878393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fallwhite_40
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 717
+        width: 101
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d052c35f8cbaf4d0800000000000000
+      internalID: -3099958069719576360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fallwhite_41
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 717
+        width: 101
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4423e097f52fad9b0800000000000000
+      internalID: -5054461139903172028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fallwhite_42
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 717
+        width: 101
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc779f0471e4fb780800000000000000
+      internalID: -8665121296256239665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fallwhite_43
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 716
+        width: 102
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 015d91da6c8be09d0800000000000000
+      internalID: -2806102354358053616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fallwhite_44
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 716
+        width: 102
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 588989aab44263d10800000000000000
+      internalID: 2104909783245559941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fallwhite_45
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 716
+        width: 104
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93a47d6896bc396a0800000000000000
+      internalID: -6443582987742787015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fallwhite_46
+      rect:
+        serializedVersion: 2
+        x: 1713
+        y: 715
+        width: 105
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 550de14c9dd4fc5b0800000000000000
+      internalID: -5345968634971893675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fallwhite_47
+      rect:
+        serializedVersion: 2
+        x: 1883
+        y: 715
+        width: 104
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b6878bd2ef2ab4a0800000000000000
+      internalID: -6576891654428981584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fallwhite_48
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 357
+        width: 104
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f693f25909e69a30800000000000000
+      internalID: 4221817926962091769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fallwhite_49
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 357
+        width: 105
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5ac5a520133afbe0800000000000000
+      internalID: -1442784586174707110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fallwhite_50
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 357
+        width: 105
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2706958a20e1a24e0800000000000000
+      internalID: -2005757687276937102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fallwhite_51
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 357
+        width: 106
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fe936cf70a7854d0800000000000000
+      internalID: -3145630165000544524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fallwhite_52
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 357
+        width: 104
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76097a5af349f7940800000000000000
+      internalID: 5296114687894065255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fallwhite_53
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 357
+        width: 104
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 295f83f4b0638a0d0800000000000000
+      internalID: -3411417295531477614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fallwhite_54
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 357
+        width: 105
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42a30fbcf1c329920800000000000000
+      internalID: 2995522809417972260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fallwhite_55
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 358
+        width: 104
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfebbbee1add07d60800000000000000
+      internalID: 7886046635090493181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fallwhite_56
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 358
+        width: 102
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4092c2c6cdc9ebe20800000000000000
+      internalID: 3368302041841281284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fallwhite_57
+      rect:
+        serializedVersion: 2
+        x: 1546
+        y: 358
+        width: 101
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fad1c270e4ab98cb0800000000000000
+      internalID: -4861149478479192657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fallwhite_58
+      rect:
+        serializedVersion: 2
+        x: 1718
+        y: 359
+        width: 101
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 732f8727a73250eb0800000000000000
+      internalID: -4754354822806179273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fallwhite_59
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 359
+        width: 101
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ff685651ee8ac740800000000000000
+      internalID: 5173104220455858169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fallwhite_60
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 0
+        width: 138
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70df8285df84671b0800000000000000
+      internalID: -5659255628801442553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

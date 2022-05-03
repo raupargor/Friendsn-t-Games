@@ -1,0 +1,1080 @@
+fileFormatVersion: 2
+guid: a10e0e11249db9e4898cd261170190ef
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7886715200051385076
+    second: idlewhite_0
+  - first:
+      213: -7158055275914382913
+    second: idlewhite_1
+  - first:
+      213: -5976314644699448210
+    second: idlewhite_2
+  - first:
+      213: -4970483588740268956
+    second: idlewhite_3
+  - first:
+      213: 6752113753914764432
+    second: idlewhite_4
+  - first:
+      213: -242120846864667655
+    second: idlewhite_5
+  - first:
+      213: -5731756265640659679
+    second: idlewhite_6
+  - first:
+      213: 5559950309666464533
+    second: idlewhite_7
+  - first:
+      213: 5156316425737143771
+    second: idlewhite_8
+  - first:
+      213: 2452345371531772425
+    second: idlewhite_9
+  - first:
+      213: -5852102208412215419
+    second: idlewhite_10
+  - first:
+      213: -3339161725901802695
+    second: idlewhite_11
+  - first:
+      213: 5497876990547429557
+    second: idlewhite_12
+  - first:
+      213: -5945025709858473365
+    second: idlewhite_13
+  - first:
+      213: -3993822001889710850
+    second: idlewhite_14
+  - first:
+      213: 5852082025938140474
+    second: idlewhite_15
+  - first:
+      213: -9023462359955540727
+    second: idlewhite_16
+  - first:
+      213: 7203387056991923921
+    second: idlewhite_17
+  - first:
+      213: -5112789079795498975
+    second: idlewhite_18
+  - first:
+      213: 5205361821306083791
+    second: idlewhite_19
+  - first:
+      213: 7375943791018302518
+    second: idlewhite_20
+  - first:
+      213: 5965153068659663439
+    second: idlewhite_21
+  - first:
+      213: -3142396595378020422
+    second: idlewhite_22
+  - first:
+      213: 9110322177415263102
+    second: idlewhite_23
+  - first:
+      213: -5449288134286505306
+    second: idlewhite_24
+  - first:
+      213: -8632620134873900366
+    second: idlewhite_25
+  - first:
+      213: -7758356398647145123
+    second: idlewhite_26
+  - first:
+      213: -2225756911434985990
+    second: idlewhite_27
+  - first:
+      213: 5499546687630361614
+    second: idlewhite_28
+  - first:
+      213: -6439788721177398386
+    second: idlewhite_29
+  - first:
+      213: 5251646345366236952
+    second: idlewhite_30
+  - first:
+      213: -3083578226022102437
+    second: idlewhite_31
+  - first:
+      213: -6909502714484847181
+    second: idlewhite_32
+  - first:
+      213: -7544580174910782385
+    second: idlewhite_33
+  - first:
+      213: -938262177144427230
+    second: idlewhite_34
+  - first:
+      213: 2849117912546856856
+    second: idlewhite_35
+  - first:
+      213: -340837051136240355
+    second: idlewhite_36
+  - first:
+      213: -2901002019827133799
+    second: idlewhite_37
+  - first:
+      213: 8433468393830211779
+    second: idlewhite_38
+  - first:
+      213: -9213862197609969447
+    second: idlewhite_39
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: idlewhite_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 860
+        width: 108
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0d6348af42cc8290800000000000000
+      internalID: -7886715200051385076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlewhite_1
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 860
+        width: 108
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb1338cc6aa79ac90800000000000000
+      internalID: -7158055275914382913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlewhite_2
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 860
+        width: 108
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c79b89e7ddf0da0800000000000000
+      internalID: -5976314644699448210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlewhite_3
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 860
+        width: 109
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46c3a33c28b450bb0800000000000000
+      internalID: -4970483588740268956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlewhite_4
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 860
+        width: 111
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09c6e195fa354bd50800000000000000
+      internalID: 6752113753914764432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlewhite_5
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 860
+        width: 111
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fb2ae16f50d3acf0800000000000000
+      internalID: -242120846864667655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlewhite_6
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 860
+        width: 112
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1257e576b06b470b0800000000000000
+      internalID: -5731756265640659679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlewhite_7
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 860
+        width: 112
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5132e784959e82d40800000000000000
+      internalID: 5559950309666464533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlewhite_8
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 688
+        width: 112
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd50399487aee8740800000000000000
+      internalID: 5156316425737143771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlewhite_9
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 688
+        width: 113
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90289b05f1b780220800000000000000
+      internalID: 2452345371531772425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlewhite_10
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 688
+        width: 114
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5879f461c0829cea0800000000000000
+      internalID: -5852102208412215419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlewhite_11
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 688
+        width: 114
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 933fa081a1ae8a1d0800000000000000
+      internalID: -3339161725901802695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlewhite_12
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 688
+        width: 113
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b88f507ef16c4c40800000000000000
+      internalID: 5497876990547429557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlewhite_13
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 688
+        width: 112
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6a325f6d960f7da0800000000000000
+      internalID: -5945025709858473365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlewhite_14
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 688
+        width: 112
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efc6939ac081398c0800000000000000
+      internalID: -3993822001889710850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlewhite_15
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 688
+        width: 112
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3dbd70d895c63150800000000000000
+      internalID: 5852082025938140474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlewhite_16
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 516
+        width: 111
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 905fdbebac836c280800000000000000
+      internalID: -9023462359955540727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlewhite_17
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 516
+        width: 111
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1de66a7fc5297f360800000000000000
+      internalID: 7203387056991923921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlewhite_18
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 516
+        width: 110
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1200b4fab69bb09b0800000000000000
+      internalID: -5112789079795498975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlewhite_19
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 516
+        width: 110
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc9545e4ff82d3840800000000000000
+      internalID: 5205361821306083791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlewhite_20
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 516
+        width: 109
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63cd4ea6ccd9c5660800000000000000
+      internalID: 7375943791018302518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlewhite_21
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 516
+        width: 110
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f426a487c1b78c250800000000000000
+      internalID: 5965153068659663439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlewhite_22
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 516
+        width: 110
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abf981512f6f364d0800000000000000
+      internalID: -3142396595378020422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlewhite_23
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 516
+        width: 110
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e73333670cd5e6e70800000000000000
+      internalID: 9110322177415263102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlewhite_24
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 344
+        width: 110
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aa0a1d305d3064b0800000000000000
+      internalID: -5449288134286505306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlewhite_25
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 344
+        width: 111
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bad4f399b5c23880800000000000000
+      internalID: -8632620134873900366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlewhite_26
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 344
+        width: 111
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5d02c106f7c45490800000000000000
+      internalID: -7758356398647145123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlewhite_27
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 344
+        width: 111
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd0c81b1e58c11e0800000000000000
+      internalID: -2225756911434985990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlewhite_28
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 344
+        width: 111
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0442e51390525c40800000000000000
+      internalID: 5499546687630361614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlewhite_29
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 344
+        width: 112
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8377ad074641a6a0800000000000000
+      internalID: -6439788721177398386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlewhite_30
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 344
+        width: 112
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81f6885d68891e840800000000000000
+      internalID: 5251646345366236952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlewhite_31
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 344
+        width: 111
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5ac2d0e0fde435d0800000000000000
+      internalID: -3083578226022102437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlewhite_32
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 112
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bd8888a3e38c10a0800000000000000
+      internalID: -6909502714484847181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlewhite_33
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 172
+        width: 111
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f440df6cd444c4790800000000000000
+      internalID: -7544580174910782385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlewhite_34
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 172
+        width: 110
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22d2f11658f9af2f0800000000000000
+      internalID: -938262177144427230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlewhite_35
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 172
+        width: 110
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89fce8c65a91a8720800000000000000
+      internalID: 2849117912546856856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlewhite_36
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 172
+        width: 109
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d159bb0028a154bf0800000000000000
+      internalID: -340837051136240355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlewhite_37
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 172
+        width: 109
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 992538b78029db7d0800000000000000
+      internalID: -2901002019827133799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlewhite_38
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 172
+        width: 109
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c0ebbe52d2b90570800000000000000
+      internalID: 8433468393830211779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlewhite_39
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 172
+        width: 108
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d8ce0ef529c12080800000000000000
+      internalID: -9213862197609969447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

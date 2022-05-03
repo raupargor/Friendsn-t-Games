@@ -1,0 +1,984 @@
+fileFormatVersion: 2
+guid: df784513a1a635649afda160bd31e7af
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -293939664003715148
+    second: throwwhite_0
+  - first:
+      213: 1180158765877876093
+    second: throwwhite_1
+  - first:
+      213: -5923377660181912721
+    second: throwwhite_2
+  - first:
+      213: 6715498727474786189
+    second: throwwhite_3
+  - first:
+      213: 2601552615066670924
+    second: throwwhite_4
+  - first:
+      213: -4511177299243760593
+    second: throwwhite_5
+  - first:
+      213: -3042050205959621574
+    second: throwwhite_6
+  - first:
+      213: 8782598150936148640
+    second: throwwhite_7
+  - first:
+      213: -5861799309532119014
+    second: throwwhite_8
+  - first:
+      213: -1916490759888257374
+    second: throwwhite_9
+  - first:
+      213: 3112374533878919029
+    second: throwwhite_10
+  - first:
+      213: 4584755627300599247
+    second: throwwhite_11
+  - first:
+      213: -708886160187922381
+    second: throwwhite_12
+  - first:
+      213: -8309165030370912867
+    second: throwwhite_13
+  - first:
+      213: -5452708608283487586
+    second: throwwhite_14
+  - first:
+      213: -7031791645378377136
+    second: throwwhite_15
+  - first:
+      213: 5620003987735597914
+    second: throwwhite_16
+  - first:
+      213: 3152827905693048323
+    second: throwwhite_17
+  - first:
+      213: 4837405491368541621
+    second: throwwhite_18
+  - first:
+      213: -5394710001908511372
+    second: throwwhite_19
+  - first:
+      213: 59696403139055660
+    second: throwwhite_20
+  - first:
+      213: 3618059358454209765
+    second: throwwhite_21
+  - first:
+      213: -1197951634262116398
+    second: throwwhite_22
+  - first:
+      213: 2799113167970612671
+    second: throwwhite_23
+  - first:
+      213: -8152853572452214393
+    second: throwwhite_24
+  - first:
+      213: 7612733661836296882
+    second: throwwhite_25
+  - first:
+      213: -3491784968092135231
+    second: throwwhite_26
+  - first:
+      213: 6610439603987266309
+    second: throwwhite_27
+  - first:
+      213: 1100798116200158500
+    second: throwwhite_28
+  - first:
+      213: -2213750770383014219
+    second: throwwhite_29
+  - first:
+      213: 6920318069111534495
+    second: throwwhite_30
+  - first:
+      213: 4769900274267970167
+    second: throwwhite_31
+  - first:
+      213: 5270087648656861921
+    second: throwwhite_32
+  - first:
+      213: -5534773677385863959
+    second: throwwhite_33
+  - first:
+      213: -969244449936833340
+    second: throwwhite_34
+  - first:
+      213: 5198141201368156989
+    second: throwwhite_35
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: throwwhite_0
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1801
+        width: 216
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bf29a5de67bbebf0800000000000000
+      internalID: -293939664003715148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throwwhite_1
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 1801
+        width: 220
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d75d6b21524c06010800000000000000
+      internalID: 1180158765877876093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throwwhite_2
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 1801
+        width: 223
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f636f56c66febcda0800000000000000
+      internalID: -5923377660181912721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throwwhite_3
+      rect:
+        serializedVersion: 2
+        x: 1245
+        y: 1801
+        width: 224
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8fe8bc238e323d50800000000000000
+      internalID: 6715498727474786189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throwwhite_4
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 1801
+        width: 224
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c47998dd1529a1420800000000000000
+      internalID: 2601552615066670924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throwwhite_5
+      rect:
+        serializedVersion: 2
+        x: 1977
+        y: 1801
+        width: 222
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2405c7c5241561c0800000000000000
+      internalID: -4511177299243760593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throwwhite_6
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1443
+        width: 221
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a347fd4847778c5d0800000000000000
+      internalID: -3042050205959621574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throwwhite_7
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 1443
+        width: 218
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aa3d8f6c7e02e970800000000000000
+      internalID: 8782598150936148640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throwwhite_8
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 1443
+        width: 218
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1045bac594b6aea0800000000000000
+      internalID: -5861799309532119014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throwwhite_9
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 1443
+        width: 214
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aeba81dec14765e0800000000000000
+      internalID: -1916490759888257374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throwwhite_10
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 1443
+        width: 213
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57f23d30620613b20800000000000000
+      internalID: 3112374533878919029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throwwhite_11
+      rect:
+        serializedVersion: 2
+        x: 1970
+        y: 1443
+        width: 192
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc5b933b3f250af30800000000000000
+      internalID: 4584755627300599247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throwwhite_12
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 1085
+        width: 171
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 338eecb0bc78926f0800000000000000
+      internalID: -708886160187922381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throwwhite_13
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 1085
+        width: 151
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d95d4a0cd6aefac80800000000000000
+      internalID: -8309165030370912867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throwwhite_14
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 1085
+        width: 143
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e925c8319661454b0800000000000000
+      internalID: -5452708608283487586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throwwhite_15
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 1085
+        width: 143
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05a89aa21ce0a6e90800000000000000
+      internalID: -7031791645378377136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throwwhite_16
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 1085
+        width: 144
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a53524dc9d34efd40800000000000000
+      internalID: 5620003987735597914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throwwhite_17
+      rect:
+        serializedVersion: 2
+        x: 1949
+        y: 1084
+        width: 159
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ed5cc964811cb20800000000000000
+      internalID: 3152827905693048323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throwwhite_18
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 725
+        width: 163
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bdbb8b2aaae12340800000000000000
+      internalID: 4837405491368541621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throwwhite_19
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 725
+        width: 164
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47d0ffde5d32225b0800000000000000
+      internalID: -5394710001908511372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throwwhite_20
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 725
+        width: 172
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c20d877ff8514d000800000000000000
+      internalID: 59696403139055660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throwwhite_21
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 724
+        width: 190
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ecd0f431dde53230800000000000000
+      internalID: 3618059358454209765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throwwhite_22
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 724
+        width: 211
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d735bde555006fe0800000000000000
+      internalID: -1197951634262116398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throwwhite_23
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 724
+        width: 226
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb5b10f889278d620800000000000000
+      internalID: 2799113167970612671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throwwhite_24
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 366
+        width: 231
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 789163c1fde3bde80800000000000000
+      internalID: -8152853572452214393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throwwhite_25
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 366
+        width: 238
+        height: 333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b249637eecd5a960800000000000000
+      internalID: 7612733661836296882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throwwhite_26
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 366
+        width: 245
+        height: 333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c0d1d06210ba8fc0800000000000000
+      internalID: -3491784968092135231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throwwhite_27
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 366
+        width: 252
+        height: 333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50bb5d4dbcffcbb50800000000000000
+      internalID: 6610439603987266309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throwwhite_28
+      rect:
+        serializedVersion: 2
+        x: 1474
+        y: 366
+        width: 259
+        height: 333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 425978ded02d64f00800000000000000
+      internalID: 1100798116200158500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throwwhite_29
+      rect:
+        serializedVersion: 2
+        x: 1835
+        y: 366
+        width: 263
+        height: 333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b6b21e376d2741e0800000000000000
+      internalID: -2213750770383014219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throwwhite_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 262
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f933c125e98e90060800000000000000
+      internalID: 6920318069111534495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throwwhite_31
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 0
+        width: 262
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ad7c50707123240800000000000000
+      internalID: 4769900274267970167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throwwhite_32
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 0
+        width: 262
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eaad595bcc132940800000000000000
+      internalID: 5270087648656861921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throwwhite_33
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 0
+        width: 263
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ecab373aa88033b0800000000000000
+      internalID: -5534773677385863959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throwwhite_34
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 0
+        width: 260
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c40ffcde4d8c82f0800000000000000
+      internalID: -969244449936833340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throwwhite_35
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 0
+        width: 368
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3b0fd7b1e1832840800000000000000
+      internalID: 5198141201368156989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

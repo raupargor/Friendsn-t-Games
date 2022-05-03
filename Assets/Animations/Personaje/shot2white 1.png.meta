@@ -1,0 +1,1056 @@
+fileFormatVersion: 2
+guid: c32f9e530f6c4d544888d29770dfaec6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1792742509834508634
+    second: shot2white 1_0
+  - first:
+      213: -4271641992034024375
+    second: shot2white 1_1
+  - first:
+      213: 8859188901241632259
+    second: shot2white 1_2
+  - first:
+      213: -8237253437234096962
+    second: shot2white 1_3
+  - first:
+      213: 5019346522060904223
+    second: shot2white 1_4
+  - first:
+      213: -1718200198303899571
+    second: shot2white 1_5
+  - first:
+      213: -2642556641075764207
+    second: shot2white 1_6
+  - first:
+      213: 3012003278807804923
+    second: shot2white 1_7
+  - first:
+      213: -368053482218332228
+    second: shot2white 1_8
+  - first:
+      213: -1007843433702809015
+    second: shot2white 1_9
+  - first:
+      213: 4557584464157292273
+    second: shot2white 1_10
+  - first:
+      213: -2387064825833933363
+    second: shot2white 1_11
+  - first:
+      213: -7818452951916298387
+    second: shot2white 1_12
+  - first:
+      213: -2947408062283947126
+    second: shot2white 1_13
+  - first:
+      213: 1749096696437298244
+    second: shot2white 1_14
+  - first:
+      213: 2581649349683459760
+    second: shot2white 1_15
+  - first:
+      213: 7127274817169867304
+    second: shot2white 1_16
+  - first:
+      213: 7362741399642499417
+    second: shot2white 1_17
+  - first:
+      213: 7482216375650114106
+    second: shot2white 1_18
+  - first:
+      213: 1839857304803561422
+    second: shot2white 1_19
+  - first:
+      213: -8548826777207545523
+    second: shot2white 1_20
+  - first:
+      213: -3779784419040167511
+    second: shot2white 1_21
+  - first:
+      213: -308245859963156718
+    second: shot2white 1_22
+  - first:
+      213: 24204908472364373
+    second: shot2white 1_23
+  - first:
+      213: 1294522879320559863
+    second: shot2white 1_24
+  - first:
+      213: 7327145996898052354
+    second: shot2white 1_25
+  - first:
+      213: -6590582567461072517
+    second: shot2white 1_26
+  - first:
+      213: 8094637243462908022
+    second: shot2white 1_27
+  - first:
+      213: -2637911714385974251
+    second: shot2white 1_28
+  - first:
+      213: -2320184105276143033
+    second: shot2white 1_29
+  - first:
+      213: 2335552008326758412
+    second: shot2white 1_30
+  - first:
+      213: 5076326793814603566
+    second: shot2white 1_31
+  - first:
+      213: 7404382062349938484
+    second: shot2white 1_32
+  - first:
+      213: -7285927662601230190
+    second: shot2white 1_33
+  - first:
+      213: 4213629820973366024
+    second: shot2white 1_34
+  - first:
+      213: -8491220867556157539
+    second: shot2white 1_35
+  - first:
+      213: -1967001813212646935
+    second: shot2white 1_36
+  - first:
+      213: 833216248518288585
+    second: shot2white 1_37
+  - first:
+      213: -6374780825820579233
+    second: shot2white 1_38
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: shot2white 1_0
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 858
+        width: 114
+        height: 167
+      alignment: 9
+      pivot: {x: 0.43839866, y: 0.47897467}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a662978f26ee17e0800000000000000
+      internalID: -1792742509834508634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shot2white 1_1
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 857
+        width: 107
+        height: 168
+      alignment: 9
+      pivot: {x: 0.4781232, y: 0.465166}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9448b298d3418b4c0800000000000000
+      internalID: -4271641992034024375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shot2white 1_2
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 857
+        width: 101
+        height: 168
+      alignment: 9
+      pivot: {x: 0.5115888, y: 0.44426546}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30637902e5922fa70800000000000000
+      internalID: 8859188901241632259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shot2white 1_3
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 857
+        width: 96
+        height: 168
+      alignment: 9
+      pivot: {x: 0.57315254, y: 0.45123255}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb4dbc444a56fad80800000000000000
+      internalID: -8237253437234096962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shot2white 1_4
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 857
+        width: 93
+        height: 168
+      alignment: 9
+      pivot: {x: 0.57551163, y: 0.48606655}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f175804711d48a540800000000000000
+      internalID: 5019346522060904223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shot2white 1_5
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 857
+        width: 92
+        height: 168
+      alignment: 9
+      pivot: {x: 0.6145, y: 0.4721331}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d402717e50ab728e0800000000000000
+      internalID: -1718200198303899571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shot2white 1_6
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 856
+        width: 90
+        height: 169
+      alignment: 9
+      pivot: {x: 0.6040392, y: 0.472298}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11464dd5cb0c35bd0800000000000000
+      internalID: -2642556641075764207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shot2white 1_7
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 686
+        width: 89
+        height: 168
+      alignment: 9
+      pivot: {x: 0.60520756, y: 0.45123255}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfba6a71609ccc920800000000000000
+      internalID: 3012003278807804923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shot2white 1_8
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 685
+        width: 85
+        height: 169
+      alignment: 9
+      pivot: {x: 0.66523796, y: 0.46537212}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbfd706de4964eaf0800000000000000
+      internalID: -368053482218332228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shot2white 1_9
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 685
+        width: 78
+        height: 169
+      alignment: 9
+      pivot: {x: 0.7250832, y: 0.472298}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9422fe0acbb6302f0800000000000000
+      internalID: -1007843433702809015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shot2white 1_10
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 684
+        width: 75
+        height: 170
+      alignment: 9
+      pivot: {x: 0.76529866, y: 0.4793457}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f63feb4ceacf3f30800000000000000
+      internalID: 4557584464157292273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shot2white 1_11
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 685
+        width: 79
+        height: 169
+      alignment: 9
+      pivot: {x: 0.78149647, y: 0.472298}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc5b65820317fded0800000000000000
+      internalID: -2387064825833933363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shot2white 1_12
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 685
+        width: 86
+        height: 169
+      alignment: 9
+      pivot: {x: 0.7994136, y: 0.472298}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6fbce3d6764f7390800000000000000
+      internalID: -7818452951916298387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shot2white 1_13
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 684
+        width: 91
+        height: 170
+      alignment: 9
+      pivot: {x: 0.77010137, y: 0.45869106}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a83617fbbf3b817d0800000000000000
+      internalID: -2947408062283947126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shot2white 1_14
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 513
+        width: 93
+        height: 170
+      alignment: 9
+      pivot: {x: 0.78946185, y: 0.4655758}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44454f4ad2a064810800000000000000
+      internalID: 1749096696437298244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shot2white 1_15
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 513
+        width: 95
+        height: 170
+      alignment: 9
+      pivot: {x: 0.80800843, y: 0.47246093}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b63086c76cd3d320800000000000000
+      internalID: 2581649349683459760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shot2white 1_16
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 513
+        width: 96
+        height: 170
+      alignment: 9
+      pivot: {x: 0.7804162, y: 0.4793457}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8224ffd2faa29e260800000000000000
+      internalID: 7127274817169867304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shot2white 1_17
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 513
+        width: 98
+        height: 170
+      alignment: 9
+      pivot: {x: 0.7985802, y: 0.47246093}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 959e0c22b46bd2660800000000000000
+      internalID: 7362741399642499417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shot2white 1_18
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 513
+        width: 99
+        height: 170
+      alignment: 9
+      pivot: {x: 0.80738664, y: 0.4793457}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3a5c33b62c26d760800000000000000
+      internalID: 7482216375650114106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shot2white 1_19
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 513
+        width: 101
+        height: 170
+      alignment: 9
+      pivot: {x: 0.8244774, y: 0.4655758}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecf4932887c788910800000000000000
+      internalID: 1839857304803561422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shot2white 1_20
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 513
+        width: 103
+        height: 170
+      alignment: 9
+      pivot: {x: 0.80681247, y: 0.4655758}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d41623af6577c5980800000000000000
+      internalID: -8548826777207545523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shot2white 1_21
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 342
+        width: 104
+        height: 170
+      alignment: 9
+      pivot: {x: 0.8038622, y: 0.4655758}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a9fd87d8128b8bc0800000000000000
+      internalID: -3779784419040167511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shot2white 1_22
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 342
+        width: 105
+        height: 170
+      alignment: 9
+      pivot: {x: 0.8232622, y: 0.47246075}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21749650604e8bbf0800000000000000
+      internalID: -308245859963156718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shot2white 1_23
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 342
+        width: 107
+        height: 170
+      alignment: 9
+      pivot: {x: 0.80628127, y: 0.4655758}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55de05b6c3ef55000800000000000000
+      internalID: 24204908472364373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shot2white 1_24
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 342
+        width: 109
+        height: 170
+      alignment: 9
+      pivot: {x: 0.83287567, y: 0.47246075}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f0948733b117f110800000000000000
+      internalID: 1294522879320559863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shot2white 1_25
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 342
+        width: 110
+        height: 170
+      alignment: 9
+      pivot: {x: 0.8511297, y: 0.4793457}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 209a88a96704fa560800000000000000
+      internalID: 7327145996898052354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shot2white 1_26
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 342
+        width: 108
+        height: 169
+      alignment: 9
+      pivot: {x: 0.8142836, y: 0.45152092}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b71d993c21c8984a0800000000000000
+      internalID: -6590582567461072517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shot2white 1_27
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 342
+        width: 105
+        height: 169
+      alignment: 9
+      pivot: {x: 0.8121152, y: 0.46537212}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 678f04a8fade55070800000000000000
+      internalID: 8094637243462908022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shot2white 1_28
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 171
+        width: 104
+        height: 170
+      alignment: 9
+      pivot: {x: 0.80386186, y: 0.4586907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51cae23a541446bd0800000000000000
+      internalID: -2637911714385974251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shot2white 1_29
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 171
+        width: 102
+        height: 170
+      alignment: 9
+      pivot: {x: 0.7868712, y: 0.46557555}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74a028f59dc0dcfd0800000000000000
+      internalID: -2320184105276143033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shot2white 1_30
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 171
+        width: 99
+        height: 170
+      alignment: 9
+      pivot: {x: 0.795564, y: 0.4586907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0044c26d2c896020800000000000000
+      internalID: 2335552008326758412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shot2white 1_31
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 171
+        width: 97
+        height: 170
+      alignment: 9
+      pivot: {x: 0.8016584, y: 0.4586907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e27fd1dc25cb27640800000000000000
+      internalID: 5076326793814603566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shot2white 1_32
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 171
+        width: 95
+        height: 170
+      alignment: 9
+      pivot: {x: 0.79568833, y: 0.46557555}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43f64af6146a1c660800000000000000
+      internalID: 7404382062349938484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shot2white 1_33
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 171
+        width: 92
+        height: 171
+      alignment: 9
+      pivot: {x: 0.80533105, y: 0.4726219}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2982673b46f23ea90800000000000000
+      internalID: -7285927662601230190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shot2white 1_34
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 0
+        width: 87
+        height: 171
+      alignment: 9
+      pivot: {x: 0.78251815, y: 0.4589323}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b3c165ff1d97a30800000000000000
+      internalID: 4213629820973366024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shot2white 1_35
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 0
+        width: 83
+        height: 171
+      alignment: 9
+      pivot: {x: 0.7538294, y: 0.46577695}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d975eeffb9f192a80800000000000000
+      internalID: -8491220867556157539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shot2white 1_36
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 0
+        width: 82
+        height: 171
+      alignment: 9
+      pivot: {x: 0.7569245, y: 0.46577695}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e139e2c54ec3b4e0800000000000000
+      internalID: -1967001813212646935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shot2white 1_37
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 172
+        width: 99
+        height: 169
+      alignment: 9
+      pivot: {x: 0.8192089, y: 0.45844662}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c4240273cd209b00800000000000000
+      internalID: 833216248518288585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shot2white 1_38
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 0
+        width: 89
+        height: 169
+      alignment: 9
+      pivot: {x: 0.8181757, y: 0.46537203}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5a3efb2d9a3887a0800000000000000
+      internalID: -6374780825820579233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
