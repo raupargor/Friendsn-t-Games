@@ -5,6 +5,7 @@ using UnityEngine;
 public class Movement : MonoBehaviour
 {
   public GameObject BulletPrefab;
+  public GameObject BombPrefab;
   public float Speed;
   public float JumpForce;
   public bool canMove;
@@ -38,6 +39,7 @@ public class Movement : MonoBehaviour
 
   public Transform mira;
   private Vector2 direcionNormalizada;
+
   void Start(){
     anim=GetComponent<Animator>();
     Rigidbody2D = GetComponent<Rigidbody2D>();
@@ -178,12 +180,13 @@ public class Movement : MonoBehaviour
         fuerzaAtaque=2;
         canAttack=false;
       }
+      if(canBomb){
+        Bomb();
+        canBomb=false;
+      }
     }
   }
 
-
-
-  // }
   public void ChangeColor(int nuevoColor){
     if(gameObject.tag=="Player"){
       gameObject.GetComponent<SpriteRenderer>().color=colores[nuevoColor];
@@ -197,7 +200,37 @@ public class Movement : MonoBehaviour
     Rigidbody2D.AddForce(Vector2.up*JumpForce);
   }
 
+  private void Bomb(){
+    Vector3 mousePos = mira.position;
 
+    Vector3 position = gameObject.transform.position;
+    Vector3 direction=(mousePos-position);
+    mousePos.x=mousePos.x-position.x;
+    mousePos.y=mousePos.y-position.y;
+
+
+    if(direction.y>3){ 
+
+      if(direction.x>2){ 
+        direction = new Vector3(1,1,0);
+      }else if(direction.x<-2){ 
+        direction = new Vector3(-1,1,0);
+      }else{        
+        direction = Vector3.up*2;
+      }
+    }
+    else if(direction.x>0){ 
+      direction = Vector3.right;
+    }
+    else{
+      direction=Vector3.left;
+    }
+
+    GameObject bomb=Instantiate(BombPrefab,transform.position+direction * 1f, Quaternion.identity);
+    bomb.GetComponentInChildren<Rigidbody2D>().AddForce(Vector2.up*2000f);
+    // bomb.transform.rotation = Quaternion.Euler(0, 0, angle);
+
+  }
   private void Shot(){ 
     Vector3 mousePos = mira.position;
 
@@ -205,10 +238,8 @@ public class Movement : MonoBehaviour
     Vector3 direction=(mousePos-position);
     mousePos.x=mousePos.x-position.x;
     mousePos.y=mousePos.y-position.y;
-    Debug.Log("direction:" +direction);
 
     float angle= Mathf.Atan2(mousePos.x,mousePos.y)*Mathf.Rad2Deg;
-    Debug.Log("angle:" +angle);
 
     if(direction.y>3){ 
 
@@ -231,18 +262,6 @@ public class Movement : MonoBehaviour
       direction=Vector3.left;
       angle=180;
     }
-    // if(Horizontal==0 || Vertical>0){ 
-    //     direction = Vector3.up;
-    //     angle=90;
-    // }
-    // else if(Horizontal>0){ 
-    //   direction = Vector3.right;
-    //   angle=0;
-    // }
-    // else{
-    //   direction=Vector3.left;
-    //   angle=180;
-    // }
 
     GameObject bullet=Instantiate(BulletPrefab,transform.position+direction * 1f, Quaternion.identity);
     bullet.GetComponent<Bullet>().SetDirection(direction);
@@ -267,20 +286,19 @@ public class Movement : MonoBehaviour
   
   public void Hit(int fuerza,Vector2 direction){ 
     vidas = vidas-fuerza;
-    if(direction.x >=0)direcionNormalizada=new Vector2(1,0);
+    if(direction.x >0)direcionNormalizada=new Vector2(1,0);
+    else if(direction.x==0)direcionNormalizada=new Vector2(0,1);
     else direcionNormalizada=new Vector2(-1,0);
 
-    Rigidbody2D.AddForce(direcionNormalizada*new Vector2(5000*fuerzaAtaque,0)); 
+    Rigidbody2D.AddForce(direcionNormalizada*new Vector2(5000*fuerzaAtaque,1000*fuerzaAtaque)); 
     if(vidas <= 0){ 
       gameObject.GetComponent<Animator>().SetBool("Hit",true);
       gameObject.GetComponent<Animator>().SetBool("Dead",true);
       gameObject.GetComponent<Movement>().canMove=false;
-
     }
     else{
       gameObject.GetComponent<Animator>().SetBool("Hit",true);
       gameObject.GetComponent<Animator>().SetBool("Dead",false);
-
     }
   }
 

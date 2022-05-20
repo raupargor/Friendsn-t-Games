@@ -22,7 +22,6 @@ public class Bullet : MonoBehaviour
     }
 
     public void SetDirection(Vector3 direction){
-        // Debug.Log(direction);
         Direction = direction;
     }
 
@@ -32,12 +31,9 @@ public class Bullet : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision){
         Movement stickman=collision.collider.GetComponent<Movement>();
-        // Debug.Log(stickman);
         
         if(stickman!=null)stickman.Hit(1,Direction);
-        // if(stickman!=null){
-        //     stickman.Hit(1,Vector2.right);
-        // }
+
         DestroyBullet();
     }
 }
