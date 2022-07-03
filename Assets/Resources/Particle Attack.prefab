@@ -4814,10 +4814,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 9147476344213695775}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e20be455b692cd46b17f553543ae952, type: 3}
+  m_Script: {fileID: 11500000, guid: f0a43f4615bf4eb4a8940c00c6589c22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  particleAttack: {fileID: 9147476344213695762}
-  particleDash: {fileID: 2670824617903871932, guid: ac7d518da6150fc498400321ef6e83e3, type: 3}
-  particleHeal: {fileID: 1988951919136584436, guid: dcb45f9f8d9d2a24e8fd129dc92fd818, type: 3}
-  particleBomb: {fileID: 705756783179740222, guid: e7773d8c86a082047923f47ba81431db, type: 3}
+  particleAttack: {fileID: 9147476344213695775}

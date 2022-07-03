@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Photon.Pun;
 
-public class Movement : MonoBehaviour
+public class Movement : MonoBehaviourPunCallbacks
 {
   public GameObject BulletPrefab;
   public GameObject BombPrefab;
@@ -40,6 +41,8 @@ public class Movement : MonoBehaviour
   public Transform mira;
   private Vector2 direcionNormalizada;
 
+  PhotonView view;
+
   void Start(){
     anim=GetComponent<Animator>();
     Rigidbody2D = GetComponent<Rigidbody2D>();
@@ -47,142 +50,147 @@ public class Movement : MonoBehaviour
     //0.ROSA 1.AZUL 2.VERDE 3.NEGRO 4.ROJO 5.CIAN 6.AMARILLO 7.NARANJA 8.BLANCO 0.VIOLETA 10.MORADO 11.AZUL2 12.VERDE2
     colores.Add(new Color32(255,0,215,255));colores.Add(new Color32(36,0,255,255));colores.Add(new Color32(50,210,0,255));colores.Add(new Color32(0,0,0,255));colores.Add(new Color32(255,28,0,255));
     colores.Add(new Color32(0,221,255,255));colores.Add(new Color32(255,214,0,255));colores.Add(new Color32(255,118,0,255));colores.Add(new Color32(255,255,255,255));colores.Add(new Color32(164,0,255,255));
-    colores.Add(new Color32(108,0,255,255));colores.Add(new Color32(0,136,255,255));colores.Add(new Color32(0,255,166,255));}
+    colores.Add(new Color32(108,0,255,255));colores.Add(new Color32(0,136,255,255));colores.Add(new Color32(0,255,166,255));
+    //Ponemos el Photon View como el que instancia
+    view = GetComponent<PhotonView>();
+    }
 
   void Update(){
-    Horizontal = Input.GetAxisRaw("Horizontal");
-    Vertical = Input.GetAxisRaw("Vertical");
- 
-    if(Input.GetKeyDown(KeyCode.C))
-        {            
-            ChangeColor(12); 
-        }
-
-    //DETECTAR EL RATON Y PONER LA MIRA
-    mira.position=Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x,Input.mousePosition.y,-Camera.main.transform.position.z));
-    Vector3 mousePos = mira.position;
-    Vector3 position = gameObject.transform.position;
-    Vector3 direction=(mousePos-position);
-
-    //ANIMACION DE CORRER
-    if(Horizontal > 0 && canMove){   
-      gameObject.transform.Translate(Speed*Time.deltaTime,0,0);
-      gameObject.GetComponent<SpriteRenderer>().flipX=true;
-      anim.SetBool("Moving",true);
-    }else if(Horizontal < 0 && canMove) {
-      gameObject.GetComponent<SpriteRenderer>().flipX=false;
-      gameObject.transform.Translate(-Speed*Time.deltaTime,0,0);
-      anim.SetBool("Moving",true);
-    }else{
-      anim.SetBool("Moving",false);
-    }
-
-    //ANIMACION DE SALTAR
-    if(Input.GetKeyDown(KeyCode.W)  && Grounded && canMove){
-        Jump();      
-    }
-
-    if(Physics2D.Raycast(transform.position,Vector3.down, 1f)){
-      Grounded=true;
-      anim.SetBool("Jumping",false);
-    }else{
-      if(Vertical > 0){
-        anim.SetBool("Jumping",true);
-      
-      }
-      Grounded=false;
-    }
-
-    //ANIMACION DE ATACAR
-    if((Input.GetMouseButtonDown(0)||Input.GetKeyDown(KeyCode.K))&& canMove && canAttackPlayer){
-      anim.SetBool("Attack",true);
-      Attack(fuerzaAtaque);
-      fuerzaAtaque=1;
-    }else{
-     anim.SetBool("Attack",false);
-
-    }
-
-    // ANIMACION DE DISPARAR
-    if((Input.GetMouseButtonDown(1) ||Input.GetKeyDown(KeyCode.L))&& Time.time > LastShot + 0.4f && canMove && canShoot){
-      Shot();
-      LastShot=Time.time;
-      anim.SetBool("Shot",true);
-
-    }else{
-     anim.SetBool("Shot",false);
-
-    }
-    // ANIMACION DE DASH INFINITO 
-    if(Input.GetKeyDown(KeyCode.LeftShift)&& canMove && Time.time > LastDash + 0.4f && infiniteDash){
-        if(Horizontal > 0 ){
-          anim.SetBool("Dash",true);
-          Dash(Vector2.right);
-          LastDash=Time.time;  
-        }
-        else if(Horizontal < 0){
-          anim.SetBool("Dash",true);
-          Dash(Vector2.left);  
-          LastDash=Time.time;
-        }
-        else if(Horizontal == 0){ 
-          anim.SetBool("Dash",true);
-          if(direction.x >= 0.1f){
-            Dash(Vector2.right);
-          }
-          if(direction.x < -0.1f){
-            Dash(Vector2.left);
-          }
-          LastDash=Time.time;
-        }
-        else{
-          anim.SetBool("Dash",false);
-        }
-    }
+    if(view.IsMine){
+      Horizontal = Input.GetAxisRaw("Horizontal");
+      Vertical = Input.GetAxisRaw("Vertical");
   
-    //USAR UN OBJETO
-    if(Input.GetKeyDown(KeyCode.Space)){
-      if(canDash && canMove && Time.time > LastDash + 0.4f){
-        if(Horizontal > 0 ){
-          anim.SetBool("Dash",true);
-          Dash(Vector2.right);
-          LastDash=Time.time;  
+      if(Input.GetKeyDown(KeyCode.C))
+          {            
+              ChangeColor(12); 
+          }
+
+      //DETECTAR EL RATON Y PONER LA MIRA
+      mira.position=Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x,Input.mousePosition.y,-Camera.main.transform.position.z));
+      Vector3 mousePos = mira.position;
+      Vector3 position = gameObject.transform.position;
+      Vector3 direction=(mousePos-position);
+    
+      //ANIMACION DE CORRER
+      if(Horizontal > 0 && canMove){   
+        gameObject.transform.Translate(Speed*Time.deltaTime,0,0);
+        gameObject.GetComponent<SpriteRenderer>().flipX=true;
+        anim.SetBool("Moving",true);
+      }else if(Horizontal < 0 && canMove) {
+        gameObject.GetComponent<SpriteRenderer>().flipX=false;
+        gameObject.transform.Translate(-Speed*Time.deltaTime,0,0);
+        anim.SetBool("Moving",true);
+      }else{
+        anim.SetBool("Moving",false);
+      }
+
+      //ANIMACION DE SALTAR
+      if(Input.GetKeyDown(KeyCode.W)  && Grounded && canMove){
+          Jump();      
+      }
+
+      if(Physics2D.Raycast(transform.position,Vector3.down, 1f)){
+        Grounded=true;
+        anim.SetBool("Jumping",false);
+      }else{
+        if(Vertical > 0){
+          anim.SetBool("Jumping",true);
+        
         }
-        else if(Horizontal < 0){
-          anim.SetBool("Dash",true);
-          Dash(Vector2.left);  
-          LastDash=Time.time;
-        }
-        else if(Horizontal == 0){ 
-          anim.SetBool("Dash",true);
-          if(direction.x >= 0.1f){
+        Grounded=false;
+      }
+
+      //ANIMACION DE ATACAR
+      if((Input.GetMouseButtonDown(0)||Input.GetKeyDown(KeyCode.K))&& canMove && canAttackPlayer){
+        anim.SetBool("Attack",true);
+        Attack(fuerzaAtaque);
+        fuerzaAtaque=1;
+      }else{
+      anim.SetBool("Attack",false);
+
+      }
+
+      // ANIMACION DE DISPARAR
+      if((Input.GetMouseButtonDown(1) ||Input.GetKeyDown(KeyCode.L))&& Time.time > LastShot + 0.4f && canMove && canShoot){
+        Shot();
+        LastShot=Time.time;
+        anim.SetBool("Shot",true);
+
+      }else{
+      anim.SetBool("Shot",false);
+
+      }
+      // ANIMACION DE DASH INFINITO 
+      if(Input.GetKeyDown(KeyCode.LeftShift)&& canMove && Time.time > LastDash + 0.4f && infiniteDash){
+          if(Horizontal > 0 ){
+            anim.SetBool("Dash",true);
             Dash(Vector2.right);
+            LastDash=Time.time;  
           }
-          if(direction.x < -0.1f){
-            Dash(Vector2.left);
+          else if(Horizontal < 0){
+            anim.SetBool("Dash",true);
+            Dash(Vector2.left);  
+            LastDash=Time.time;
           }
-          LastDash=Time.time;
-        }
-        else{
-          anim.SetBool("Dash",false);
-        }
-        if(!infiniteDash){
-          canDash=false;
-        }
+          else if(Horizontal == 0){ 
+            anim.SetBool("Dash",true);
+            if(direction.x >= 0.1f){
+              Dash(Vector2.right);
+            }
+            if(direction.x < -0.1f){
+              Dash(Vector2.left);
+            }
+            LastDash=Time.time;
+          }
+          else{
+            anim.SetBool("Dash",false);
+          }
       }
-      if(canHeal){
-        if (vidas<4){
-          vidas=vidas+1;
-          canHeal=false;
+    
+      //USAR UN OBJETO
+      if(Input.GetKeyDown(KeyCode.Space)){
+        if(canDash && canMove && Time.time > LastDash + 0.4f){
+          if(Horizontal > 0 ){
+            anim.SetBool("Dash",true);
+            Dash(Vector2.right);
+            LastDash=Time.time;  
+          }
+          else if(Horizontal < 0){
+            anim.SetBool("Dash",true);
+            Dash(Vector2.left);  
+            LastDash=Time.time;
+          }
+          else if(Horizontal == 0){ 
+            anim.SetBool("Dash",true);
+            if(direction.x >= 0.1f){
+              Dash(Vector2.right);
+            }
+            if(direction.x < -0.1f){
+              Dash(Vector2.left);
+            }
+            LastDash=Time.time;
+          }
+          else{
+            anim.SetBool("Dash",false);
+          }
+          if(!infiniteDash){
+            canDash=false;
+          }
         }
-      }
-      if(canAttack){
-        fuerzaAtaque=2;
-        canAttack=false;
-      }
-      if(canBomb){
-        Bomb();
-        canBomb=false;
+        if(canHeal){
+          if (vidas<4){
+            vidas=vidas+1;
+            canHeal=false;
+          }
+        }
+        if(canAttack){
+          fuerzaAtaque=2;
+          canAttack=false;
+        }
+        if(canBomb){
+          Bomb();
+          canBomb=false;
+        }
       }
     }
   }

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Photon.Pun;
 
 public class ItemSpawn : MonoBehaviour
 {
@@ -19,46 +20,51 @@ public class ItemSpawn : MonoBehaviour
     public float rangoyB=-2f;
 
     public bool canSpawn=true;
+    PhotonView view;
+    void Start(){
+        view=GetComponent<PhotonView>();
+    }
+    void Update(){  
+        if(view.IsMine){
+            if(canSpawn){
+                timer1 += Time.deltaTime;
+                timer2 += Time.deltaTime;
+                timer3 += Time.deltaTime;
+                timer4 += Time.deltaTime;
 
-    void Update(){   
-        if(canSpawn){
-            timer1 += Time.deltaTime;
-            timer2 += Time.deltaTime;
-            timer3 += Time.deltaTime;
-            timer4 += Time.deltaTime;
-
-            if(timer1 >= 19f){
-                timer1=9;
-                float x =Random.Range(rangoxA, rangoxB);
-                float y =Random.Range(rangoyA, rangoyB);
-                Vector3 position= new Vector3(x,y,0);
-                Quaternion rotation= new Quaternion();
-                Instantiate(DashPrefab, position, rotation);
+                if(timer1 >= 19f){
+                    timer1=9;
+                    float x =Random.Range(rangoxA, rangoxB);
+                    float y =Random.Range(rangoyA, rangoyB);
+                    Vector3 position= new Vector3(x,y,0);
+                    Quaternion rotation= new Quaternion();
+                    PhotonNetwork.Instantiate(DashPrefab.name, position, rotation);
+                }
+                if(timer2 >= 20f){
+                    timer2=9;
+                    float x =Random.Range(rangoxA, rangoxB);
+                    float y =Random.Range(rangoyA, rangoyB);
+                    Vector3 position= new Vector3(x,y,0);
+                    Quaternion rotation= new Quaternion();
+                    PhotonNetwork.Instantiate(AttackPrefab.name, position, rotation);
+                }
+                if(timer3 >= 19f){
+                    timer3=9;
+                    float x =Random.Range(rangoxA, rangoxB);
+                    float y =Random.Range(rangoyA, rangoyB);
+                    Vector3 position= new Vector3(x,y,0);
+                    Quaternion rotation= new Quaternion();
+                    PhotonNetwork.Instantiate(HealthPrefab.name, position, rotation);
+                }
+                if(timer4 >=27f){
+                    timer4=9;
+                    float x =Random.Range(rangoxA, rangoxB);
+                    float y =Random.Range(rangoyA, rangoyB);
+                    Vector3 position= new Vector3(x,y,0);
+                    Quaternion rotation= new Quaternion();
+                    PhotonNetwork.Instantiate(BombPrefab.name, position, rotation);
+                }
             }
-            if(timer2 >= 20f){
-                timer2=9;
-                float x =Random.Range(rangoxA, rangoxB);
-                float y =Random.Range(rangoyA, rangoyB);
-                Vector3 position= new Vector3(x,y,0);
-                Quaternion rotation= new Quaternion();
-                Instantiate(AttackPrefab, position, rotation);
-            }
-            if(timer3 >= 19f){
-                timer3=9;
-                float x =Random.Range(rangoxA, rangoxB);
-                float y =Random.Range(rangoyA, rangoyB);
-                Vector3 position= new Vector3(x,y,0);
-                Quaternion rotation= new Quaternion();
-                Instantiate(HealthPrefab, position, rotation);
-            }
-            if(timer4 >=27f){
-                timer4=9;
-                float x =Random.Range(rangoxA, rangoxB);
-                float y =Random.Range(rangoyA, rangoyB);
-                Vector3 position= new Vector3(x,y,0);
-                Quaternion rotation= new Quaternion();
-                Instantiate(BombPrefab, position, rotation);
-            }
-        }
+        } 
     }    
 }

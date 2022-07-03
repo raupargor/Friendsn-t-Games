@@ -1,11 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Photon.Pun;
 
 public class ItemController : MonoBehaviour
 {   
-
-
     // public GameObject BombPrefab;
 
     private void OnTriggerEnter2D(Collider2D collision){
