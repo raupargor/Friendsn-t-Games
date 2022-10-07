@@ -10,7 +10,6 @@ using Hashtable = ExitGames.Client.Photon.Hashtable;
 public class WaitInRoom : MonoBehaviour
 {
     public GameObject playerPrefab;
-    public GameObject playerPrefab2;
     PhotonView view;
     public Text roomName;
     private float timer;
@@ -36,16 +35,24 @@ public class WaitInRoom : MonoBehaviour
         view = GetComponent<PhotonView>();
 
         roomName.text = PhotonNetwork.CurrentRoom.Name;
-        // playerPrefab.transform.GetChild(1).GetComponent<SpriteRenderer>().color =memory.Color;
-        // playerPrefab.transform.GetChild(2).GetComponent<SpriteRenderer>().sprite= memory.Hat;
+        playerPrefab.transform.GetChild(1).GetComponent<SpriteRenderer>().color =memory.Color;
+        playerPrefab.transform.GetChild(2).GetComponent<SpriteRenderer>().sprite= memory.Hat;
         if (PhotonNetwork.IsMasterClient)
         {
-            PhotonNetwork.Instantiate(playerPrefab.name, position1, Quaternion.identity, 0);
+            GameObject pr = PhotonNetwork.Instantiate("Armatures/00", position1, Quaternion.identity, 0);
+            GameObject vengavamo = PhotonNetwork.Instantiate("Hats/00", position1, Quaternion.identity, 0);
+            vengavamo.transform.parent=pr.transform;
+
+            // pr.transform.GetChild(2).GetComponent<SpriteRenderer>().sprite= memory.Hat;
+
         }
         else
         {
             if(PhotonNetwork.CurrentRoom.PlayerCount==2){
-                 PhotonNetwork.Instantiate(playerPrefab2.name, position2, Quaternion.identity, 0);
+            GameObject pr2 = PhotonNetwork.Instantiate("Armatures/02", position2, Quaternion.identity, 0);
+            GameObject vengavamo2 = PhotonNetwork.Instantiate("Hats/02", position2, Quaternion.identity, 0);
+            vengavamo2.transform.parent=pr2.transform;
+
             }
             if(PhotonNetwork.CurrentRoom.PlayerCount==3){
                  PhotonNetwork.Instantiate(playerPrefab.name, position3, Quaternion.identity, 0);
@@ -59,6 +66,7 @@ public class WaitInRoom : MonoBehaviour
             if(PhotonNetwork.CurrentRoom.PlayerCount==6){
                  PhotonNetwork.Instantiate(playerPrefab.name, position6, Quaternion.identity, 0);
             }
+            
         }
         // GameObject p = GameObject.Find("/Armature(Clone)");
         // p.gameObject.SetActive(true);
@@ -75,15 +83,19 @@ public class WaitInRoom : MonoBehaviour
         timer += Time.deltaTime;
         if (timer <= 15f)
         {
-            GameObject p = GameObject.Find("/Armature(Clone)");
-            p.GetComponentInChildren<Movement>().canMove = false;
+            GameObject p = GameObject.FindWithTag("Player");
+            if(p.GetComponentInChildren<Movement>().canMove){
+                p.GetComponentInChildren<Movement>().canMove = false;
+            }
+            
         }
     }
 
     public void Empezar(){ 
         if(PhotonNetwork.IsMasterClient){
             PhotonNetwork.LoadLevel("ZonaPruebas");
-
+            PhotonNetwork.CurrentRoom.IsOpen = false;
+            PhotonNetwork.CurrentRoom.IsVisible = false;
         }
     
     

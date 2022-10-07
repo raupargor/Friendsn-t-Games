@@ -1365,7 +1365,7 @@ ScriptsOnlyBuild:
     className: Hats
   - hash:
       serializedVersion: 2
-      Hash: 497948372109e826c63219472479f26c
+      Hash: cf34bb7c1e5257f5962b905bfc46bc17
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: WaitInRoom

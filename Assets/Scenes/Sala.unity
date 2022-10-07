@@ -417,8 +417,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df959c85366c739418b46c7d76dc756d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerPrefab: {fileID: 6678037941201701029, guid: fadb284db972d4a49affd1d9f8c5ba48, type: 3}
-  playerPrefab2: {fileID: 6678037941201701029, guid: da0e90a7a0920bb4fb336f9ec7bdd550, type: 3}
+  playerPrefab: {fileID: 3318743029798404093, guid: 8e8b0edb2beed4449ae5e09d53859258, type: 3}
   roomName: {fileID: 1964579900}
 --- !u!4 &187848881
 Transform:

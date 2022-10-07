@@ -35,10 +35,10 @@ public class Hats : MonoBehaviour //,IPunObservable
 
     void Update()
     {
-        if (!view.IsMine)
-        {
-            return;
-        }
+        // if (!view.IsMine)
+        // {
+        //     return;
+        // }
 
         transform.position = Vector3.MoveTowards(
             transform.position,
