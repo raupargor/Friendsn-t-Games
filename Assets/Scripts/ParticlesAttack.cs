@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using Photon.Pun;
 public class ParticlesAttack : MonoBehaviour
 {   
     private Transform movement;
@@ -27,6 +27,8 @@ public class ParticlesAttack : MonoBehaviour
             Debug.Log("ATTACKING instanciating");
             GameObject e1=Instantiate(particleAttack, transform.position, Quaternion.identity);
             e1.transform.parent = gameObject.transform;
+            // GameObject e1=PhotonNetwork.Instantiate(particleAttack.name, transform.position, Quaternion.identity);
+            // e1.transform.parent = gameObject.transform;
         }
         attackIsPlaying=true;
     }else { 
@@ -34,6 +36,7 @@ public class ParticlesAttack : MonoBehaviour
         try{ 
         GameObject child=gameObject.transform.GetChild(0).gameObject;
         Destroy(child);
+        // PhotonNetwork.Destroy(child);
         }
         catch{ }
     }            

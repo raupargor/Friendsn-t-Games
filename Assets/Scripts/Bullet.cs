@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Photon.Pun;
 
 public class Bullet : MonoBehaviour
 {
@@ -8,15 +9,19 @@ public class Bullet : MonoBehaviour
     
     private Rigidbody2D Rigidbody2D;
     private Vector3 Direction;
+    PhotonView view;
+
     void Start()
     {
         Rigidbody2D = GetComponent<Rigidbody2D>();
+        view = GetComponent<PhotonView>();
 
     }
 
 
     void Update()
     {
+        // view = GetComponent<PhotonView>();
         Rigidbody2D.velocity = Direction*Speed ;
 
     }
@@ -32,8 +37,9 @@ public class Bullet : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision){
         Movement stickman=collision.collider.GetComponent<Movement>();
         
-        if(stickman!=null)stickman.Hit(1,Direction);
-
-        DestroyBullet();
+        if(stickman!=null){
+            DestroyBullet();
+            stickman.Hit(1,Direction);
+        }
     }
 }

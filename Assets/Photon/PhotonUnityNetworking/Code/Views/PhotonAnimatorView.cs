@@ -80,7 +80,7 @@ namespace Photon.Pun
         
         private Animator m_Animator;
 
-        private PhotonStreamQueue m_StreamQueue = new PhotonStreamQueue(120);
+        private PhotonStreamQueue m_StreamQueue = new PhotonStreamQueue(1000);
 
         //These fields are only used in the CustomEditor for this script and would trigger a
         //"this variable is never used" warning, which I am suppressing here
