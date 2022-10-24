@@ -891,7 +891,7 @@ ScriptsOnlyBuild:
     className: CurrentRoomIsVisibleProperty
   - hash:
       serializedVersion: 2
-      Hash: 88ccf41341949bb817f450294ef0c1bb
+      Hash: 8cd967ef5c2ef6b4d9f8daf2921010cc
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Memory
@@ -1359,13 +1359,13 @@ ScriptsOnlyBuild:
     className: OnClickInstantiate
   - hash:
       serializedVersion: 2
-      Hash: 8ab6e3110c902ad914ae56fa99239367
+      Hash: a7fb965507e9071013a62713016077a3
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Hats
   - hash:
       serializedVersion: 2
-      Hash: cf34bb7c1e5257f5962b905bfc46bc17
+      Hash: d7d94ec9674a1ce8fa62c5e88c4d17ef
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: WaitInRoom

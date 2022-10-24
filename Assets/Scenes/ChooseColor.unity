@@ -193,7 +193,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 0
+  m_Text: 00
 --- !u!222 &11764990
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -459,6 +459,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   allowedColors: 00000000010000000200000003000000040000000500000006000000070000000800000009000000
   colorInput: {fileID: 572257420}
+  colores: []
 --- !u!1 &133321397
 GameObject:
   m_ObjectHideFlags: 0
@@ -529,7 +530,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 2
+  m_Text: 02
 --- !u!222 &133321400
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -686,6 +687,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   allowedColors: 00000000010000000200000003000000040000000500000006000000070000000800000009000000
   colorInput: {fileID: 1894934701}
+  colores: []
 --- !u!1 &460517738
 GameObject:
   m_ObjectHideFlags: 0
@@ -787,7 +789,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1
+  m_Text: 01
 --- !u!222 &572257421
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1046,6 +1048,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   allowedColors: 00000000010000000200000003000000040000000500000006000000070000000800000009000000
   colorInput: {fileID: 11764989}
+  colores: []
 --- !u!1 &679100648
 GameObject:
   m_ObjectHideFlags: 0
@@ -1194,6 +1197,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   allowedColors: 00000000010000000200000003000000040000000500000006000000070000000800000009000000
   colorInput: {fileID: 1863409572}
+  colores: []
 --- !u!1 &769256362
 GameObject:
   m_ObjectHideFlags: 0
@@ -1264,7 +1268,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 3
+  m_Text: 03
 --- !u!222 &769256365
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1451,6 +1455,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   allowedColors: 00000000010000000200000003000000040000000500000006000000070000000800000009000000
   colorInput: {fileID: 997534193}
+  colores: []
 --- !u!1 &997534191
 GameObject:
   m_ObjectHideFlags: 0
@@ -1521,7 +1526,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 5
+  m_Text: 05
 --- !u!222 &997534194
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1600,7 +1605,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 6
+  m_Text: 06
 --- !u!222 &1036163660
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1757,6 +1762,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   allowedColors: 00000000010000000200000003000000040000000500000006000000070000000800000009000000
   colorInput: {fileID: 769256364}
+  colores: []
 --- !u!1 &1259977207
 GameObject:
   m_ObjectHideFlags: 0
@@ -2277,6 +2283,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   allowedColors: 00000000010000000200000003000000040000000500000006000000070000000800000009000000
   colorInput: {fileID: 1799250380}
+  colores: []
 --- !u!1 &1539722081
 GameObject:
   m_ObjectHideFlags: 0
@@ -2551,7 +2558,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 4
+  m_Text: 04
 --- !u!222 &1598527517
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2732,7 +2739,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 9
+  m_Text: 09
 --- !u!222 &1799250381
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2913,7 +2920,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 8
+  m_Text: 08
 --- !u!222 &1863409573
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3094,7 +3101,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 7
+  m_Text: 07
 --- !u!222 &1894934702
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3251,6 +3258,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   allowedColors: 00000000010000000200000003000000040000000500000006000000070000000800000009000000
   colorInput: {fileID: 133321399}
+  colores: []
 --- !u!1 &1952141499
 GameObject:
   m_ObjectHideFlags: 0
@@ -3666,6 +3674,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   allowedColors: 00000000010000000200000003000000040000000500000006000000070000000800000009000000
   colorInput: {fileID: 1036163659}
+  colores: []
 --- !u!1 &2083565314
 GameObject:
   m_ObjectHideFlags: 0
@@ -3814,3 +3823,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   allowedColors: 00000000010000000200000003000000040000000500000006000000070000000800000009000000
   colorInput: {fileID: 1598527516}
+  colores: []

@@ -7,8 +7,8 @@ using Photon.Pun;
 {
     public string nickname;
     public int posicion;
-    public Color32 Color;
-    public Sprite Hat;
+    public string Color;
+    public string Hat;
     public int Points;
 
     void Awake()

@@ -18,7 +18,8 @@ public class ParticlesBomb : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {               
+    {  
+    try{           
     transform.position = Vector3.MoveTowards(transform.position, movement.transform.position + new Vector3(0f,0,-1), 10f);
 
     if(movement.GetComponent<Movement>().canBomb){
@@ -36,6 +37,6 @@ public class ParticlesBomb : MonoBehaviour
         Destroy(child);
         }
         catch{ }
-    }            
+    }  }catch{}          
     }
 }

@@ -38,7 +38,7 @@ public class ChooseHat : MonoBehaviour
             // if(PhotonNetwork.IsMasterClient){
             // PhotonNetwork.AutomaticallySyncScene=true;
             // }        
-            memory.Hat = spriteArray[int.Parse(hatInput.text)];
+            memory.Hat = hatInput.text;
             // Debug.Log("El sombrero es"+memory.Hat);
             PhotonNetwork.LoadLevel("Loading");
 

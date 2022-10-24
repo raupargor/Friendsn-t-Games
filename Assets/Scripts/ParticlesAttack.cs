@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Photon.Pun;
+// using Photon.Pun;
 public class ParticlesAttack : MonoBehaviour
 {   
     private Transform movement;
@@ -18,9 +18,10 @@ public class ParticlesAttack : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {               
-    transform.position = Vector3.MoveTowards(transform.position, movement.transform.position + new Vector3(0f,0,-1), 10f);
-
+    {
+        try{    
+            transform.position = Vector3.MoveTowards(transform.position, movement.transform.position + new Vector3(0f,0,-1), 10f);
+        
     if(movement.GetComponent<Movement>().canAttack){
         Debug.Log("CAN ATTACK");
         if(attackIsPlaying==false){
@@ -39,6 +40,6 @@ public class ParticlesAttack : MonoBehaviour
         // PhotonNetwork.Destroy(child);
         }
         catch{ }
-    }            
+    }  }catch{}          
     }
 }

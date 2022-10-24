@@ -10,7 +10,7 @@ using Hashtable = ExitGames.Client.Photon.Hashtable;
 public class WaitInRoom : MonoBehaviour
 {
     public GameObject playerPrefab;
-    PhotonView view;
+    public PhotonView view;
     public Text roomName;
     private float timer;
 
@@ -18,11 +18,22 @@ public class WaitInRoom : MonoBehaviour
     // public int color;
     Memory memory;
 
+    // [PunRPC]
+    // void addParent(GameObject armature,GameObject hat)
+    // {
+    //     hat.transform.parent=armature.transform;
+    // }
     void Start()
-    {
-        // if(PhotonNetwork.IsMasterClient){
-        //     PhotonNetwork.AutomaticallySyncScene = true;
+    {   
+        // foreach(GameObject c in GameObject.FindGameObjectsWithTag("animatorMovement")){
+        //     Debug.Log("dentro");
+        //     Debug.Log("aaaa"+c.GetComponent<SpriteRenderer>().color.ToString());
+        //     if(c.GetComponent<SpriteRenderer>().color== new Color32(255,0,215,255)){
+        //                 SceneManager.LoadScene("ChooseColor");
+        //             }
         // }
+        // Debug.Log("bbbbb"+GameObject.FindWithTag("Player").ToString());
+
         Vector2 position1 = new Vector2(-1.15f, 6f);
         Vector2 position2 = new Vector2(0.23f, 3.41f);
         Vector2 position3 = new Vector2(2.5f, 2.42f);
@@ -32,16 +43,23 @@ public class WaitInRoom : MonoBehaviour
         memory = GameObject.FindWithTag("Memory").GetComponent<Memory>();
         timer += Time.deltaTime;
 
-        view = GetComponent<PhotonView>();
-
+        
+        // view= PhotonView.Get(this);
         roomName.text = PhotonNetwork.CurrentRoom.Name;
-        playerPrefab.transform.GetChild(1).GetComponent<SpriteRenderer>().color =memory.Color;
-        playerPrefab.transform.GetChild(2).GetComponent<SpriteRenderer>().sprite= memory.Hat;
-        if (PhotonNetwork.IsMasterClient)
+        // playerPrefab.transform.GetChild(1).GetComponent<SpriteRenderer>().color =memory.Color;
+        // playerPrefab.transform.GetChild(2).GetComponent<SpriteRenderer>().sprite= memory.Hat;
+        if (PhotonNetwork.CurrentRoom.PlayerCount==1)
         {
-            GameObject pr = PhotonNetwork.Instantiate("Armatures/00", position1, Quaternion.identity, 0);
-            GameObject vengavamo = PhotonNetwork.Instantiate("Hats/00", position1, Quaternion.identity, 0);
-            vengavamo.transform.parent=pr.transform;
+            GameObject armature = PhotonNetwork.Instantiate("Armatures/A"+memory.Color, position1, Quaternion.identity, 0);
+
+            int parentViewID = armature.GetComponentInChildren<PhotonView>().ViewID;
+            object[] myCustomInitData = new object[3];
+            Debug.Log(parentViewID);
+            myCustomInitData[0] = parentViewID;
+            GameObject hat = PhotonNetwork.Instantiate("Hats/H"+memory.Hat, position1, Quaternion.identity, 0,myCustomInitData);
+            // view = armature.GetComponent<PhotonView>();
+            // view.RPC("addParent", RpcTarget.All,armature,hat);
+            // hat.transform.parent=armature.transform;
 
             // pr.transform.GetChild(2).GetComponent<SpriteRenderer>().sprite= memory.Hat;
 
@@ -49,9 +67,13 @@ public class WaitInRoom : MonoBehaviour
         else
         {
             if(PhotonNetwork.CurrentRoom.PlayerCount==2){
-            GameObject pr2 = PhotonNetwork.Instantiate("Armatures/02", position2, Quaternion.identity, 0);
-            GameObject vengavamo2 = PhotonNetwork.Instantiate("Hats/02", position2, Quaternion.identity, 0);
-            vengavamo2.transform.parent=pr2.transform;
+            GameObject armature = PhotonNetwork.Instantiate("Armatures/A"+memory.Color, position2, Quaternion.identity, 0);
+
+            int parentViewID = armature.GetComponentInChildren<PhotonView>().ViewID;
+            object[] myCustomInitData = new object[3];
+            Debug.Log(parentViewID);
+            myCustomInitData[0] = parentViewID;
+            GameObject hat = PhotonNetwork.Instantiate("Hats/H"+memory.Hat, position2, Quaternion.identity, 0,myCustomInitData);
 
             }
             if(PhotonNetwork.CurrentRoom.PlayerCount==3){
@@ -68,12 +90,7 @@ public class WaitInRoom : MonoBehaviour
             }
             
         }
-        // GameObject p = GameObject.Find("/Armature(Clone)");
-        // p.gameObject.SetActive(true);
-        // p.GetComponentInChildren<Movement>().ChangeColor(memory.Color);
-        // Debug.Log(memory.Hat);
-        // p.GetComponentInChildren<Hats>().ChangeSprite(memory.Hat);
-        // p.GetComponentInChildren<Movement>().canMove=false;
+
     }
 
     // Update is called once per frame
@@ -83,7 +100,7 @@ public class WaitInRoom : MonoBehaviour
         timer += Time.deltaTime;
         if (timer <= 15f)
         {
-            GameObject p = GameObject.FindWithTag("Player");
+            GameObject p = GameObject.Find("Animator-movement");
             if(p.GetComponentInChildren<Movement>().canMove){
                 p.GetComponentInChildren<Movement>().canMove = false;
             }
@@ -100,6 +117,7 @@ public class WaitInRoom : MonoBehaviour
     
     
     }
+
     // void OnPhotonSerializeView()
     //  {
     //       GameObject  p = GameObject.Find("/Armature(Clone)");

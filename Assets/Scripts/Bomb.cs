@@ -39,7 +39,7 @@ public class Bomb : MonoBehaviour
 
     public void Explode() {
         
-        Collider2D[] colisionesBomba= Physics2D.OverlapCircleAll(gameObject.GetComponentInChildren<Transform>().position,2f);
+        Collider2D[] colisionesBomba= Physics2D.OverlapCircleAll(gameObject.GetComponentInChildren<Transform>().position,2.5f);
         foreach(Collider2D stickman in colisionesBomba){ 
             if(stickman.tag=="Enemy" || stickman.tag=="Player"){
 

@@ -93,12 +93,10 @@ public class Movement : MonoBehaviour, IPunObservable
             if (stream.IsWriting)
             {
                 stream.SendNext(spriteRenderer.flipX);
-                // stream.SendNext(spriteRenderer.color);
             }
             else
             {
                 spriteRenderer.flipX = (bool) stream.ReceiveNext();
-                // spriteRenderer.color = (Color32) stream.ReceiveNext();
             }
         }
             
@@ -118,10 +116,10 @@ public class Movement : MonoBehaviour, IPunObservable
             isme=true;
             Horizontal = Input.GetAxisRaw("Horizontal");
             Vertical = Input.GetAxisRaw("Vertical");
-            if (Input.GetKeyDown(KeyCode.C))
-            {
-                ChangeColor(12);
-            }
+            // if (Input.GetKeyDown(KeyCode.C))
+            // {
+            //     ChangeColor(12);
+            // }
 
             //DETECTAR EL RATON Y PONER LA MIRA
             mira.position = Camera.main.ScreenToWorldPoint(
@@ -307,13 +305,13 @@ public class Movement : MonoBehaviour, IPunObservable
         }
     }
 
-    public void ChangeColor(int nuevoColor)
-    {
-        if (gameObject.tag == "Player")
-        {
-            gameObject.GetComponent<SpriteRenderer>().color = colores[nuevoColor];
-        }
-    }
+    // public void ChangeColor(int nuevoColor)
+    // {
+    //     if (gameObject.tag == "Player")
+    //     {
+    //         gameObject.GetComponent<SpriteRenderer>().color = colores[nuevoColor];
+    //     }
+    // }
 
     private void Dash(Vector2 direction)
     {
@@ -409,7 +407,7 @@ public class Movement : MonoBehaviour, IPunObservable
 
         GameObject bullet = PhotonNetwork.Instantiate(
             BulletPrefab.name,
-            transform.position + direction * 1f,
+            transform.position + direction * 0.75f,
             Quaternion.identity
         );
         bullet.GetComponent<Bullet>().SetDirection(direction);
