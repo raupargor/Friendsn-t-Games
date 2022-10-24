@@ -6,6 +6,24 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/Choose Nickname.unity
+    guid: 436d80038791ba145b45c0d0591ff8ca
+  - enabled: 1
+    path: Assets/Scenes/Loading.unity
+    guid: a55568dad80a88d4390abdcbb226d142
+  - enabled: 1
+    path: Assets/Scenes/Lobby.unity
+    guid: 6e7da4b6a753bc6438f15ef1e225fe36
+  - enabled: 1
+    path: Assets/Scenes/ChooseColor.unity
+    guid: c2462fa8d87da0b4cb1923cc036bd3ad
+  - enabled: 1
+    path: Assets/Scenes/ChooseHat.unity
+    guid: 9bbd276c58020fe4888bf454bb3bfa77
+  - enabled: 1
+    path: Assets/Scenes/Sala.unity
+    guid: 88b2d42413f49c746b4e592ebe516219
+  - enabled: 1
+    path: Assets/Scenes/ZonaPruebas.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}
