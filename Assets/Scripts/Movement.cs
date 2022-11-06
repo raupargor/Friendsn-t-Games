@@ -34,12 +34,12 @@ public class Movement : MonoBehaviour, IPunObservable
     public bool canHeal;
     public bool canDash;
     public bool canBomb;
-    public bool canAttack;
+    public bool canAttack;//particulas de atacar x2
     private int fuerzaAtaque = 1;
     public bool infiniteDash = false;
 
     public bool canShoot = true;
-    public bool canAttackPlayer = true;
+    public bool canAttackPlayer = true;//poder atacar
 
     public Transform mira;
     private Vector2 direcionNormalizada;
@@ -47,35 +47,15 @@ public class Movement : MonoBehaviour, IPunObservable
     private PhotonView view;
     private SpriteRenderer spriteRenderer;
     public bool isme=false;
-    // void Awake()
-    // {
-    //     colores.Add(new Color32(255, 0, 215, 255));
-    //     colores.Add(new Color32(36, 0, 255, 255));
-    //     colores.Add(new Color32(50, 210, 0, 255));
-    //     colores.Add(new Color32(0, 0, 0, 255));
-    //     colores.Add(new Color32(255, 28, 0, 255));
-    //     colores.Add(new Color32(0, 221, 255, 255));
-    //     colores.Add(new Color32(255, 214, 0, 255));
-    //     colores.Add(new Color32(255, 118, 0, 255));
-    //     colores.Add(new Color32(255, 255, 255, 255));
-    //     colores.Add(new Color32(164, 0, 255, 255));
-    //     colores.Add(new Color32(108, 0, 255, 255));
-    //     colores.Add(new Color32(0, 136, 255, 255));
-    //     colores.Add(new Color32(0, 255, 166, 255));
-    //     memory = GameObject.FindWithTag("Memory").GetComponent<Memory>();
-    // }
 
     void Start()
     {
         anim = GetComponent<Animator>();
         Rigidbody2D = GetComponent<Rigidbody2D>();
         Physics2D.queriesStartInColliders = false;
-        //0.ROSA 1.AZUL 2.VERDE 3.NEGRO 4.ROJO 5.CIAN 6.AMARILLO 7.NARANJA 8.BLANCO 0.VIOLETA 10.MORADO 11.AZUL2 12.VERDE2
-
         //Ponemos el Photon View como el que instancia
         view = GetComponent<PhotonView>();
         spriteRenderer = GetComponent<SpriteRenderer>();
-        // view.RPC("RPC_SetColor", RpcTarget.AllBuffered, spriteRenderer.color);
         AddObservable();
     }
 
@@ -103,14 +83,10 @@ public class Movement : MonoBehaviour, IPunObservable
         catch{}
     }
 
-    // [PunRPC]
-    // void RPC_SetColor(Color transferredColor)
-    // {
-    //     gameObject.GetComponentInChildren<SpriteRenderer>().color = transferredColor;
-    // }
 
     void Update()
-    {
+    {   
+        
         if (view.IsMine)
         {
             isme=true;
@@ -178,8 +154,9 @@ public class Movement : MonoBehaviour, IPunObservable
                 && canAttackPlayer
             )
             {
-                anim.SetBool("Attack", true);
-                anim.SetBool("Attack", true);
+                // anim.SetBool("Attack", true);
+                // anim.SetBool("Attack", true);
+                //view.RPC("Attack",RpcTarget.All,fuerzaAtaque);
                 Attack(fuerzaAtaque);
                 fuerzaAtaque = 1;
             }
@@ -205,6 +182,7 @@ public class Movement : MonoBehaviour, IPunObservable
             {
                 anim.SetBool("Shot", false);
             }
+
             // ANIMACION DE DASH INFINITO
             if (
                 Input.GetKeyDown(KeyCode.LeftShift)
@@ -212,6 +190,7 @@ public class Movement : MonoBehaviour, IPunObservable
                 && Time.time > LastDash + 0.4f
                 && infiniteDash
             )
+
             {
                 if (Horizontal > 0)
                 {
@@ -253,6 +232,7 @@ public class Movement : MonoBehaviour, IPunObservable
                     {
                         anim.SetBool("Dash", true);
                         Dash(Vector2.right);
+
                         LastDash = Time.time;
                     }
                     else if (Horizontal < 0)
@@ -287,80 +267,44 @@ public class Movement : MonoBehaviour, IPunObservable
                 {
                     if (vidas < 4)
                     {
-                        vidas = vidas + 1;
-                        canHeal = false;
+                        view.RPC("oneUp", RpcTarget.All);
                     }
                 }
                 if (canAttack)
                 {
-                    fuerzaAtaque = 2;
-                    canAttack = false;
+                    view.RPC("hardAttack", RpcTarget.All);
                 }
                 if (canBomb)
                 {
-                    Bomb();
                     canBomb = false;
+                    Bomb();      
                 }
             }
         }
+        PhotonNetwork.PhotonServerSettings.RpcList.Clear();
     }
-
-    // public void ChangeColor(int nuevoColor)
-    // {
-    //     if (gameObject.tag == "Player")
-    //     {
-    //         gameObject.GetComponent<SpriteRenderer>().color = colores[nuevoColor];
-    //     }
-    // }
-
-    private void Dash(Vector2 direction)
-    {
-        Rigidbody2D.AddForce(direction * 1000);
+    [PunRPC]
+    private void oneUp(){ 
+        vidas = vidas + 1;
+        canHeal = false;
     }
-
+    [PunRPC]
+    private void hardAttack(){ 
+        fuerzaAtaque = 2;
+        canAttack = false;
+    }
+ 
     private void Jump()
     {
         Rigidbody2D.AddForce(Vector2.up * JumpForce);
     }
-
-    private void Bomb()
+    private void Dash(Vector2 direction)
     {
-        Vector3 mousePos = mira.position;
-
-        Vector3 position = gameObject.transform.position;
-        Vector3 direction = (mousePos - position);
-        mousePos.x = mousePos.x - position.x;
-        mousePos.y = mousePos.y - position.y;
-
-        if (direction.y > 3)
-        {
-            if (direction.x > 2)
-            {
-                direction = new Vector3(1, 1, 0);
-            }
-            else if (direction.x < -2)
-            {
-                direction = new Vector3(-1, 1, 0);
-            }
-            else
-            {
-                direction = Vector3.up * 2;
-            }
-        }
-        else if (direction.x > 0)
-        {
-            direction = Vector3.right;
-        }
-        else
-        {
-            direction = Vector3.left;
-        }
-
-        GameObject bomb = PhotonNetwork.Instantiate(
-            BombPrefab.name,
-            transform.position + direction * 1f,
-            Quaternion.identity
-        );
+        Rigidbody2D.AddForce(direction * 1000);
+    }
+    private void Bomb()
+    {      
+        GameObject bomb = PhotonNetwork.Instantiate(BombPrefab.name,transform.position + new Vector3(0,2,0),Quaternion.identity);
         bomb.GetComponentInChildren<Rigidbody2D>().AddForce(Vector2.up * 2000f);
         // bomb.transform.rotation = Quaternion.Euler(0, 0, angle);
     }
@@ -404,58 +348,96 @@ public class Movement : MonoBehaviour, IPunObservable
             direction = Vector3.left;
             angle = 180;
         }
-
+        object[] myCustomInitData = new object[3];
+        myCustomInitData[0] = direction;
+        myCustomInitData[1] = angle;
         GameObject bullet = PhotonNetwork.Instantiate(
             BulletPrefab.name,
-            transform.position + direction * 0.75f,
-            Quaternion.identity
+            transform.position + direction * 1f,
+            Quaternion.identity,0,myCustomInitData
         );
-        bullet.GetComponent<Bullet>().SetDirection(direction);
-        bullet.transform.rotation = Quaternion.Euler(0, 0, angle);
     }
 
     public void Attack(int fuerza)
-    {
-        Collider2D[] colisionesAtaque = Physics2D.OverlapCircleAll(
-            gameObject.GetComponentInChildren<Transform>().position + new Vector3(0f, 0.69f, 0f),
-            1.5f
-        );
-        positionPlayer = gameObject.GetComponentInChildren<Transform>().position;
+    {   
+        anim.SetBool("Attack", true);
+    Collider2D[] colisionesAtaque = Physics2D.OverlapCircleAll(
+        gameObject.GetComponentInChildren<Transform>().position + new Vector3(0f, 0.80f, 0f),
+        2f
+    );
+    positionPlayer = gameObject.GetComponentInChildren<Transform>().position;
 
-        foreach (Collider2D stickman in colisionesAtaque)
+    foreach (Collider2D stickman in colisionesAtaque)
+    {   
+        Vector2 direction = stickman.transform.position - positionPlayer;
+        if (stickman.tag=="Player"&& stickman.GetComponent<Movement>().isme==false)//
         {
-            Vector2 direction = stickman.transform.position - positionPlayer;
-            if (stickman.tag=="Player" && stickman.GetComponent<Movement>().isme==false)
-            {
-                // stickman.tag="Player";
-                stickman.GetComponent<Movement>().Hit(fuerza, direction);
-            }
+            var photonPlayer=stickman.transform.GetComponent<PhotonView>().Owner;
+            Debug.Log(photonPlayer);
+
+            view.RPC("Hit", RpcTarget.All, fuerza, direction,stickman.transform.GetComponent<PhotonView>().ViewID);
         }
+     }
     }
 
-    public void Hit(int fuerza, Vector2 direction)
-    {
-        vidas = vidas - fuerza;
+    [PunRPC]
+    public void Hit(int fuerza, Vector2 direction,int stickmanID)
+    {   
+
+        var stickman=PhotonView.Find(stickmanID).GetComponent<Movement>();
+        // Debug.Log($"Ay,{view.Owner.NickName} fue golpeado");
+        stickman.vidas=stickman.vidas-fuerza;
+        // vidas = vidas - fuerza;
+        if (direction.x > 0)
+            stickman.direcionNormalizada = new Vector2(1, 0);
+        else if (direction.x == 0)
+            stickman.direcionNormalizada = new Vector2(0, 1);
+        else
+            stickman.direcionNormalizada  = new Vector2(-1, 0);
+
+        Rigidbody2D.AddForce(
+            stickman.direcionNormalizada * new Vector2(5000 * fuerzaAtaque, 1000 * fuerzaAtaque)
+        );
+        if (stickman.vidas <= 0)
+        {
+            stickman.GetComponent<Animator>().SetBool("Hit", true);
+            stickman.GetComponent<Animator>().SetBool("Dead", true);
+            stickman.canMove = false;
+        }
+        else
+        {
+            stickman.GetComponent<Animator>().SetBool("Hit", true);
+            stickman.GetComponent<Animator>().SetBool("Dead", false);
+        }
+    }
+   public void ReceiveDamage(int fuerza, Vector2 direction)
+    {   
+
+        vidas=vidas-fuerza;
+        // vidas = vidas - fuerza;
         if (direction.x > 0)
             direcionNormalizada = new Vector2(1, 0);
         else if (direction.x == 0)
             direcionNormalizada = new Vector2(0, 1);
         else
-            direcionNormalizada = new Vector2(-1, 0);
+            direcionNormalizada  = new Vector2(-1, 0);
 
         Rigidbody2D.AddForce(
             direcionNormalizada * new Vector2(5000 * fuerzaAtaque, 1000 * fuerzaAtaque)
         );
+
         if (vidas <= 0)
         {
-            gameObject.GetComponent<Animator>().SetBool("Hit", true);
-            gameObject.GetComponent<Animator>().SetBool("Dead", true);
-            gameObject.GetComponent<Movement>().canMove = false;
+            GetComponent<Animator>().SetBool("Hit", true);
+            GetComponent<Animator>().SetBool("Dead", true);
+            canMove = false;
+            
+
         }
         else
         {
-            gameObject.GetComponent<Animator>().SetBool("Hit", true);
-            gameObject.GetComponent<Animator>().SetBool("Dead", false);
+            GetComponent<Animator>().SetBool("Hit", true);
+            GetComponent<Animator>().SetBool("Dead", false);
         }
     }
 

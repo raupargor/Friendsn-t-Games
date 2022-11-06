@@ -1770,13 +1770,10 @@ PrefabInstance:
       propertyPath: sceneViewId
       value: 4
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 528931435074136415, guid: 8e8b0edb2beed4449ae5e09d53859258, type: 3}
+    - {fileID: 2023915016498511065, guid: 8e8b0edb2beed4449ae5e09d53859258, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 8e8b0edb2beed4449ae5e09d53859258, type: 3}
---- !u!4 &1019793025 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3318743030751986220, guid: 8e8b0edb2beed4449ae5e09d53859258, type: 3}
-  m_PrefabInstance: {fileID: 1019793024}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1370555735
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1787,11 +1784,11 @@ PrefabInstance:
     - target: {fileID: 8754492495235427680, guid: 6688f219510c2c541909ef29b93aed0a, type: 3}
       propertyPath: m_Follow
       value: 
-      objectReference: {fileID: 1019793025}
+      objectReference: {fileID: 0}
     - target: {fileID: 8754492495235427680, guid: 6688f219510c2c541909ef29b93aed0a, type: 3}
       propertyPath: m_LookAt
       value: 
-      objectReference: {fileID: 1019793025}
+      objectReference: {fileID: 0}
     - target: {fileID: 8754492495235427680, guid: 6688f219510c2c541909ef29b93aed0a, type: 3}
       propertyPath: m_Lens.m_SensorSize.x
       value: 1.3208333

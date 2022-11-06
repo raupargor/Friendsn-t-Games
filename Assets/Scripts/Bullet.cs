@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Photon.Pun;
 
-public class Bullet : MonoBehaviour
+public class Bullet : MonoBehaviour, IPunInstantiateMagicCallback
 {
     public float Speed;
     
@@ -36,10 +36,22 @@ public class Bullet : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision){
         Movement stickman=collision.collider.GetComponent<Movement>();
-        
+            Destroy(gameObject);
         if(stickman!=null){
-            DestroyBullet();
-            stickman.Hit(1,Direction);
+            // view.RPC("Hit", RpcTarget.All, 1,new Vector2(Direction.x,Direction.y),collision.transform.GetComponent<PhotonView>().ViewID);
+
+            // stickman.Hit(1,Direction);
+            stickman.ReceiveDamage(1,Direction);
+            // view.RPC("ReceiveDamage", RpcTarget.All, 1,new Vector2(Direction.x,Direction.y));
         }
+    }
+    public void OnPhotonInstantiate(PhotonMessageInfo info)
+    {
+        object[] instantiationData = info.photonView.InstantiationData;
+        Vector3 direction = (Vector3)instantiationData[0];
+        float angle = (float)instantiationData[1];
+
+        this.GetComponent<Bullet>().SetDirection(direction);
+        this.transform.rotation = Quaternion.Euler(0, 0, angle);
     }
 }

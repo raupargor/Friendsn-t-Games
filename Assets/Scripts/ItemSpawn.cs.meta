@@ -3,7 +3,11 @@ guid: 1947b95f978f3dd47a3a1f9ed603957e
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - DashPrefab: {fileID: 4813574841279655163, guid: 26aca7ec3fb34a64aa916789b0ddf1af, type: 3}
+  - AttackPrefab: {fileID: 614852246277049428, guid: 8a5a731b935093449be08b4e1874fac1, type: 3}
+  - HealthPrefab: {fileID: 4022729521967972, guid: b2adfc2cfe90c9e47b78a6ff36c7b7ca, type: 3}
+  - BombPrefab: {fileID: 701824440263722664, guid: db4b3de29a6ea214eb17644e3e8c77c1, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
