@@ -17,7 +17,6 @@ public class Connect : MonoBehaviourPunCallbacks
     public void EnterNickname(){ 
         if(!string.IsNullOrEmpty(nickname.text)){ 
             PhotonNetwork.NickName = nickname.text;
-
             memory= GameObject.FindWithTag("Memory").GetComponent<Memory>();
             memory.nickname=nickname.text;
             Debug.Log("Nickname: "+ PhotonNetwork.NickName);

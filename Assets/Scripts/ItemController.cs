@@ -6,9 +6,8 @@ using Photon.Pun;
 public class ItemController : MonoBehaviour
 {   
     // public GameObject BombPrefab;
-
     private void OnTriggerEnter2D(Collider2D collision){
-        if(collision.tag =="Enemy" || collision.tag == "Player"){
+        if( collision.tag == "Player"){//collision.tag =="Enemy" ||
             if(gameObject.tag=="HealthItem"){
                 collision.gameObject.GetComponent<Movement>().canHeal=true;
                 collision.gameObject.GetComponent<Movement>().canDash=false;

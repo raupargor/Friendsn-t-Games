@@ -26,4 +26,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ZonaPruebas.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Atardecer (Sala).unity
+    guid: c3f8f5e40e2f1394984eddc00114d916
+  - enabled: 1
+    path: Assets/Scenes/Mapa Bosque (Horizontal).unity
+    guid: 34c6b4bfcb096e24aa1805f366a798b5
+  - enabled: 1
+    path: Assets/Scenes/Mapa Cielo (Vertical).unity
+    guid: da16d7121cc40a34da2c089e39452b90
+  - enabled: 1
+    path: Assets/Scenes/Mapa marino.unity
+    guid: f232080fd5964ef4ba8cafcbe9fa14a9
+  - enabled: 1
+    path: Assets/Scenes/Espacio Exterior (Sala).unity
+    guid: 35fcfe7b447aa10408c397f80fc9475a
   m_configObjects: {}
