@@ -42,18 +42,13 @@ public class Bomb : MonoBehaviour
     }
 
     public void Explode() {
-        
+        GameObject.FindGameObjectWithTag("BombAudio").GetComponent<Music>().PlayMusic();
         Collider2D[] colisionesBomba= Physics2D.OverlapCircleAll(gameObject.GetComponentInChildren<Transform>().position,3.5f);
         foreach(Collider2D stickman in colisionesBomba){ 
-            if( stickman.tag=="Player"){//stickman.tag=="Enemy" ||
-
-                // stickman.GetComponent<Movement>().Hit(1,Vector2.up);
+            if( stickman.tag=="Player"){
                 stickman.GetComponent<Movement>().ReceiveDamage(1,Vector2.up);
-                // Debug.Log(stickman.transform.GetComponent<PhotonView>().ViewID);
                 // view.RPC("Hit", RpcTarget.All, 1, Vector2.up ,stickman.transform.GetComponent<PhotonView>().ViewID);
-                // view.RPC("ReceiveDamage", RpcTarget.All, 1,Vector2.up);
-
-
+                GameObject.FindWithTag("PlayerController").GetComponent<PlayerController>().addPoints(10);
             }
         }
         DestroyBomb();

@@ -7,7 +7,7 @@ public class ItemSpawn : MonoBehaviour
 {
     float timer1;
     float timer2 = 3f;
-    float timer3 = 5f;
+    float timer3 = 4f;
     float timer4 = 2f;
     public GameObject DashPrefab;
     public GameObject AttackPrefab;
@@ -38,36 +38,36 @@ public class ItemSpawn : MonoBehaviour
                 timer3 += Time.deltaTime;
                 timer4 += Time.deltaTime;
 
-                if (timer1 >= 19f)
+                if (timer1 >= 29f)
                 {
-                    timer1 = 9;
+                    timer1 = 14;
                     float x = Random.Range(rangoxA, rangoxB);
                     float y = Random.Range(rangoyA, rangoyB);
                     Vector3 position = new Vector3(x, y, 0);
                     Quaternion rotation = new Quaternion();
                     PhotonNetwork.Instantiate(DashPrefab.name, position, rotation);
                 }
-                if (timer2 >= 20f)
+                if (timer2 >= 30f)
                 {
-                    timer2 = 9;
+                    timer2 = 14;
                     float x = Random.Range(rangoxA, rangoxB);
                     float y = Random.Range(rangoyA, rangoyB);
                     Vector3 position = new Vector3(x, y, 0);
                     Quaternion rotation = new Quaternion();
                     PhotonNetwork.Instantiate(AttackPrefab.name, position, rotation);
                 }
-                if (timer3 >= 19f)
+                if (timer3 >= 29f)
                 {
-                    timer3 = 9;
+                    timer3 = 14;
                     float x = Random.Range(rangoxA, rangoxB);
                     float y = Random.Range(rangoyA, rangoyB);
                     Vector3 position = new Vector3(x, y, 0);
                     Quaternion rotation = new Quaternion();
                     PhotonNetwork.Instantiate(HealthPrefab.name, position, rotation);
                 }
-                if (timer4 >= 27f)
+                if (timer4 >= 34f)
                 {
-                    timer4 = 9;
+                    timer4 = 14;
                     float x = Random.Range(rangoxA, rangoxB);
                     float y = Random.Range(rangoyA, rangoyB);
                     Vector3 position = new Vector3(x, y, 0);

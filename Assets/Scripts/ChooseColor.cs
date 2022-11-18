@@ -15,24 +15,6 @@ public class ChooseColor : MonoBehaviour
     public List<Color> colores = new List<Color>();
     Memory memory;
 
-    // private ExitGames.Client.Photon.Hashtable myCustomProperties= new ExitGames.Client.Photon.Hashtable();
-    // void Awake()
-    // {
-    //     colores.Add(new Color32(255, 0, 215, 255));
-    //     colores.Add(new Color32(36, 0, 255, 255));
-    //     colores.Add(new Color32(50, 210, 0, 255));
-    //     colores.Add(new Color32(0, 0, 0, 255));
-    //     colores.Add(new Color32(255, 28, 0, 255));
-    //     colores.Add(new Color32(0, 221, 255, 255));
-    //     colores.Add(new Color32(255, 214, 0, 255));
-    //     colores.Add(new Color32(255, 118, 0, 255));
-    //     colores.Add(new Color32(255, 255, 255, 255));
-    //     colores.Add(new Color32(164, 0, 255, 255));
-    //     colores.Add(new Color32(108, 0, 255, 255));
-    //     colores.Add(new Color32(0, 136, 255, 255));
-    //     colores.Add(new Color32(0, 255, 166, 255));
-    //     memory = GameObject.FindWithTag("Memory").GetComponent<Memory>();
-    // }
     public void ColorChosen()
     {
         if (allowedColors.Contains(int.Parse(colorInput.text)))
@@ -43,7 +25,6 @@ public class ChooseColor : MonoBehaviour
             memory.Color = colorInput.text;
 
             PhotonNetwork.LoadLevel("ChooseHat");
-            // SceneManager.LoadScene("ChooseHat");
         }
         else
         {

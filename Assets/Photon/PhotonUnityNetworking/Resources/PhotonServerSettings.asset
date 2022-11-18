@@ -34,14 +34,15 @@ MonoBehaviour:
   RunInBackground: 1
   StartInOfflineMode: 0
   RpcList:
-  - ClickRpc
-  - DestroyRpc
-  - DestroySpaceship
-  - Fire
   - hardAttack
   - Hit
   - oneUp
-  - RespawnSpaceship
+  - bbomb
+  - ClickRpc
+  - DestroyRpc
+  - useObject
+  - Damage
+  - sharePoints
   DisableAutoOpenWizard: 1
   ShowSettings: 0
   DevRegionSetOnce: 1

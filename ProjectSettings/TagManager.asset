@@ -12,6 +12,20 @@ TagManager:
   - Scripter
   - Memory
   - animatorMovement
+  - cmcam
+  - startGame
+  - endGame
+  - PlayerController
+  - Nickname
+  - Ranking
+  - Audio
+  - JumpAudio
+  - JazzAudio
+  - ShotAudio
+  - AttackAudio
+  - HitAudio
+  - BombAudio
+  - SeAcaboAudio
   layers:
   - Default
   - TransparentFX
