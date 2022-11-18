@@ -21,7 +21,7 @@ EditorBuildSettings:
     path: Assets/Scenes/ChooseHat.unity
     guid: 9bbd276c58020fe4888bf454bb3bfa77
   - enabled: 1
-    path: Assets/Scenes/Sala.unity
+    path: Assets/Scenes/Ranking.unity
     guid: 88b2d42413f49c746b4e592ebe516219
   - enabled: 1
     path: Assets/Scenes/ZonaPruebas.unity
@@ -41,4 +41,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Espacio Exterior (Sala).unity
     guid: 35fcfe7b447aa10408c397f80fc9475a
+  - enabled: 1
+    path: Assets/Scenes/Sala.unity
+    guid: 53bc64a2624707b4e95c33006c597de1
   m_configObjects: {}

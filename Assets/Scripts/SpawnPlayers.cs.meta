@@ -3,7 +3,8 @@ guid: f40c88082f0384a4c86f50574ffb2d83
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - cmcamPrefab: {fileID: 8754492495235427680, guid: 6688f219510c2c541909ef29b93aed0a, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

@@ -11,7 +11,6 @@ public class ConnectToServer : MonoBehaviourPunCallbacks
     {
         if (!PhotonNetwork.IsConnected)
         {
-            PhotonNetwork.PhotonServerSettings.RpcList.Clear();
             PhotonNetwork.AutomaticallySyncScene = true;
             PhotonNetwork.ConnectUsingSettings();
         }
@@ -19,13 +18,11 @@ public class ConnectToServer : MonoBehaviourPunCallbacks
 
     public override void OnConnectedToMaster()
     {
-        PhotonNetwork.PhotonServerSettings.RpcList.Clear();
         PhotonNetwork.JoinLobby();
     }
 
     public override void OnJoinedLobby()
     {
-        PhotonNetwork.PhotonServerSettings.RpcList.Clear();
         SceneManager.LoadScene("Lobby");
     }
 }

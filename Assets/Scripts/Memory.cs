@@ -10,22 +10,37 @@ using Photon.Pun;
     public string Color;
     public string Hat;
     public int Points;
-
+    public int photonID;
+    private PhotonView view;
     void Awake()
     {
         DontDestroyOnLoad(this.gameObject);
     }
-    // public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
+    // void Start() {
+    //     view = GetComponent<PhotonView>();
+    //     AddObservable();
+    // }
+    // private void AddObservable()
     // {
-    //     if (stream.IsWriting)
+    //     if (!view.ObservedComponents.Contains(this))
     //     {
-    //         // We own this player: send the others our data
-    //         stream.SendNext(Color);
+    //         view.ObservedComponents.Add(this);
     //     }
-    //     else
-    //     {
-    //         // Network player, receive data
-    //         this.Color = (int)stream.ReceiveNext();
+    // }
+
+    // public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
+    // {   
+    //     try{
+    //         if (stream.IsWriting)
+    //         {
+    //             stream.SendNext(Points);
+    //         }
+    //         else
+    //         {
+    //             Points = (int) stream.ReceiveNext();
+    //         }
     //     }
+            
+    //     catch{}
     // }
 }

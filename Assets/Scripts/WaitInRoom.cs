@@ -29,19 +29,24 @@ public class WaitInRoom : MonoBehaviour
         puestosLibres.Add(position1);        puestosLibres.Add(position2);        puestosLibres.Add(position3);
         puestosLibres.Add(position4);        puestosLibres.Add(position5);        puestosLibres.Add(position6);
 
+
+
         memory = GameObject.FindWithTag("Memory").GetComponent<Memory>();
         timer += Time.deltaTime;
+
         
         roomName.text = PhotonNetwork.CurrentRoom.Name;
+        // playerPrefab.transform.GetChild(1).GetComponent<SpriteRenderer>().color =memory.Color;
+        // playerPrefab.transform.GetChild(2).GetComponent<SpriteRenderer>().sprite= memory.Hat;
 
-        GameObject armature = PhotonNetwork.Instantiate("Armatures/A"+memory.Color, puestosLibres[PhotonNetwork.CurrentRoom.PlayerCount-1], Quaternion.identity, 0);
+            GameObject armature = PhotonNetwork.Instantiate("Armatures/A"+memory.Color, puestosLibres[PhotonNetwork.CurrentRoom.PlayerCount-1], Quaternion.identity, 0);
 
-        int parentViewID = armature.transform.GetChild(1).GetComponent<PhotonView>().ViewID;
-        armature.transform.GetChild(1).GetComponent<PhotonView>().Owner.NickName = memory.nickname;
-        object[] myCustomInitData = new object[3];
-        Debug.Log(parentViewID);
-        myCustomInitData[0] = parentViewID;
-        GameObject hat = PhotonNetwork.Instantiate("Hats/H"+memory.Hat, position1, Quaternion.identity, 0,myCustomInitData);
+            int parentViewID = armature.transform.GetChild(1).GetComponent<PhotonView>().ViewID;
+            armature.transform.GetChild(1).GetComponent<PhotonView>().Owner.NickName = memory.nickname;
+            object[] myCustomInitData = new object[3];
+            Debug.Log(parentViewID);
+            myCustomInitData[0] = parentViewID;
+            GameObject hat = PhotonNetwork.Instantiate("Hats/H"+memory.Hat, position1, Quaternion.identity, 0,myCustomInitData);
     }
 
     void Update()
@@ -60,15 +65,17 @@ public class WaitInRoom : MonoBehaviour
     }
 
     public void Empezar(){ 
-        PhotonNetwork.PhotonServerSettings.RpcList.Clear();
-        if(PhotonNetwork.IsMasterClient){
+        GameObject.FindGameObjectWithTag("Audio").GetComponent<Music>().StopMusic();
+        if(PhotonNetwork.IsMasterClient && PhotonNetwork.PlayerList.Length>=2){
             PhotonNetwork.LoadLevel("Atardecer (Sala)");
+            // PhotonNetwork.LoadLevel("Espacio Exterior (Sala)");
+            // PhotonNetwork.LoadLevel("Mapa Cielo (Vertical)");
             PhotonNetwork.CurrentRoom.IsOpen = false;
             PhotonNetwork.CurrentRoom.IsVisible = false;
         }else{
             
         }
-
+    
     
     }
     public void Salir(){ 
