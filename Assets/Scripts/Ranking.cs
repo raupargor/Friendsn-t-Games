@@ -15,7 +15,7 @@ public class Ranking : MonoBehaviour
     private List<Vector2> puestosLibres=new List<Vector2>();
     Vector2 position1 = new Vector2(3.9f, 5f);
     Vector2 position2 = new Vector2(0f, 4f);
-    Vector2 position3 = new Vector2(3f, 7.7f);
+    Vector2 position3 = new Vector2(7.6f, 3f);
     // Vector2 position4 = new Vector2(4.5f, 2.42f);
     // Vector2 position5 = new Vector2(7.77f, 5.53f);
     // Vector2 position6 = new Vector2(10f, 6.55f);

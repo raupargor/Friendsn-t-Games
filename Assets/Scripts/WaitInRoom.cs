@@ -65,7 +65,7 @@ public class WaitInRoom : MonoBehaviour
     }
 
     public void Empezar(){ 
-        GameObject.FindGameObjectWithTag("Audio").GetComponent<Music>().StopMusic();
+        // GameObject.FindGameObjectWithTag("Audio").GetComponent<Music>().StopMusic();
         if(PhotonNetwork.IsMasterClient && PhotonNetwork.PlayerList.Length>=2){
             PhotonNetwork.LoadLevel("Atardecer (Sala)");
             // PhotonNetwork.LoadLevel("Espacio Exterior (Sala)");

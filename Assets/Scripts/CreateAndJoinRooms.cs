@@ -10,7 +10,7 @@ public class CreateAndJoinRooms : MonoBehaviourPunCallbacks
 {
     public InputField createInput;
     public InputField joinInput;
-
+    Memory memory;
     public void CreateRoom()
     {
         RoomOptions roomOptions = new RoomOptions();
@@ -18,12 +18,16 @@ public class CreateAndJoinRooms : MonoBehaviourPunCallbacks
 
         if (!string.IsNullOrEmpty(createInput.text))
         {
+            memory= GameObject.FindWithTag("Memory").GetComponent<Memory>();
+            memory.Points=0;
             PhotonNetwork.CreateRoom(createInput.text, roomOptions, null); //,new RoomOptions(){ MaxPlayers = 6 }, null);
         }
     }
 
     public void JoinRoom()
     {
+        memory= GameObject.FindWithTag("Memory").GetComponent<Memory>();
+        memory.Points=0;
         PhotonNetwork.JoinRoom(joinInput.text);
     }
 
